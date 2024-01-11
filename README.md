@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains the code used to scrap **user reviews** of various **social media apps** from **Google Play Store**
+This repository contains the code used to scrape **user reviews** of various **social media apps** from **Google Play Store**
 
 ## Running the Code
 
