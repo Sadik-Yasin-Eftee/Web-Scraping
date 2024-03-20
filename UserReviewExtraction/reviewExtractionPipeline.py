@@ -1,18 +1,20 @@
+import pandas as pd
 from google_play_scraper import Sort, reviews
-from reviewCleaningPipeline import extract_review_content
 
 
-def reviewExtractionPipeline(appLink, lang, numberOfReviews, filter_score_with):
-    result, continuation_token = reviews(
-        appLink,
-        lang=lang, 
-        country='us', 
-        sort=Sort.MOST_RELEVANT, 
-        count=numberOfReviews, 
-        filter_score_with=filter_score_with 
-    )
-    result, _ = reviews(
-        appLink,
-        continuation_token=continuation_token 
-    )
-    return extract_review_content(result)
+def scrape_reviews(apps, score, n_reviews):
+    
+    reviews_dict = {}
+    for app_name, app_id in apps.items():
+        reviews_data, _ = reviews(
+            app_id,
+            lang='en',
+            country='us',
+            sort=Sort.MOST_RELEVANT,
+            count=n_reviews,
+            filter_score_with=score
+        )
+        # Convert the list of dictionaries to a DataFrame
+        df = pd.DataFrame(reviews_data, columns=["reviewId", "content", "score"])
+        reviews_dict[app_name] = df
+    return reviews_dict
