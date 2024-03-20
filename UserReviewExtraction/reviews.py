@@ -8,10 +8,12 @@ def main():
         "Facebook": "com.facebook.katana",
         "WhatsApp": "com.whatsapp",
         "Instagram": "com.instagram.android",
-        "LinkedIn": "com.linkedin.android"
+        "LinkedIn": "com.linkedin.android",
+        "Twitter": "com.twitter.android",
+        "TikTok": "com.zhiliaoapp.musically"
     }
     scores = [1, 2]
-    number_of_reviews = 1000
+    number_of_reviews = 100000
 
     reviews = reviewExtractionPipeline.scrape_reviews(app_link, scores, number_of_reviews)
 
