@@ -1,0 +1,1138 @@
+User Action Events,App Problem Events
+"* Logging in to the app
+* Updating the app
+* Trying to log in after updating the app","* Sessions expiring unexpectedly
+* App glitching or freezing
+* Inability to log in despite updates
+
+Note: These events are organized based on their relationships and similarities, but they can be further refined and grouped into more specific categories depending on the context and purpose of the analysis."
+"* User searches for an object on Facebook Marketplace
+* User scrolls through the search results
+* App selects a random picture as the main image (only one buyers see when searching and scrolling)
+* User tries to view the full photo of the object, but the app selects a zoomed-up tiny area of damage instead of the actual overall photo.","* The app violates user expectations by selecting an incorrect main image for search results
+* The app does not display the full photo of the object as expected
+* The app's behavior leads to confusion and frustration for users, as evident in negative reviews."
+,
+,
+,
+,
+"* Using Facebook an hour and a half ago
+* Trying to log in to Facebook but facing difficulties
+* Being able to log in after some time
+* Seeing my page but unable to access any other content
+* Losing the page after a few seconds
+* Being unable to send messages on Messenger
+* Seeing all my messages and people's last online status
+* Updating the app and reinstalling it","* Suddenly stopping users from logging in
+* Displaying an error message without providing any details
+* Hiding content that users are entitled to see
+* Losing previously accessed pages or data
+* Failing to send messages properly
+* Providing inaccurate information about users' last online status."
+"* tried to log in to Facebook
+* app crashed","* session expired message repeatedly appears
+* complete loss of access to the app"
+,
+"* The user attempted to access their account.
+* The user encountered an issue with their account being hacked.
+* The user tried contacting customer support.","* The app failed to provide adequate security measures, resulting in the hacking of the user's account.
+* The app did not offer any assistance or support to the user when they encountered issues.
+* The app perpetuated a cycle of inconvenience and frustration for the user by failing to address their concerns."
+"click on a link or story, read for 2min
+click back","auto refresh on the news feed is making it nearly unusable
+article you just read never to be found again
+unable to comment on or read the next article in the news feed you saw before you clicked the first article
+This app problem demands immediate attention from developers as it violates user expectations and can significantly affect user attraction and retention if left unaddressed."
+,
+,
+"* Clicking a link on Facebook
+* Going back to the main page after clicking a link","* Reloading the entire app instead of going back to the previous page or content
+* Failure to retain user's previous navigation path
+
+Note: These events are organized based on the information provided in the review. The actual groups and events may vary depending on the context and details of the review."
+"* Interacting with the app (getting in)
+* Trying to log back in through different options","* Displaying an error message about a session expiring
+* Being stuck in a screen and unable to progress
+* Reinstalling the app and still experiencing issues"
+"accessing Facebook app
+getting message ""you need to update Facebook to continue""
+following link to Playstore to check for updates
+selecting ""open"" option after getting back to the app
+receiving the same message again after a few seconds
+uninstalling the app three times","displaying an incorrect message to the user
+not updating the app properly despite user actions
+repeatedly displaying the update message despite user efforts to resolve the issue."
+,
+":
+
+* Entering the saved password
+* Trying to log in repeatedly despite the error messages
+* Receiving an authorization code after successful login attempt",":
+
+* Session expired error message
+* Unable to log in error message
+* Blank white page after entering authorization code
+
+Note: These events are organized into groups based on their similarity and relevance to the app problem being described in the review."
+"* Logging into the app
+* Setting a new password
+* The app restarting after setting a new password
+* Being unable to log into the app despite trying again","* The app repeatedly telling the user to try again
+* The app's inability to recognize or accept a new password
+* The app's reliance on Facebook for authentication
+* The app restarting after setting a new password
+
+Note: These events are organized into related groups based on their connection to the review and the user's experience with the app."
+,
+"Events:
+
+
+
+* Logging in to the app
+* Automatic disconnection of the ID
+* Trying to log in again
+* Facing an error message ""session expired""
+* Trying to login again and facing another error message ""Unexpected error occurred, please try logging in again""","* Session expiration issue
+* Inconsistent error messages
+* Difficulty in logging in
+
+Note: These events are organized into groups based on their similarity and relevance to the problem at hand."
+"* Interacting with the app after last update
+* Trying to stay signed in
+* Receiving error messages and being kicked off","* Inability to stay signed in
+* Error messages without providing a solution
+* Lack of allowance for signing back in"
+,
+,
+,
+"* clicking on a post or photo
+* trying to change the settings","* not receiving notifications when people like a user's posts or photos
+* receiving unnecessary notifications for pointless groups
+* difficulty changing the app's settings
+* not getting notifications for liked posts or photos."
+"* Deleting the app
+* Redownloading the app
+* Resetting the phone","* Failure to open the app
+* Displaying a problem message without allowing access to the app"
+":
+
+* Trying to open the app
+* Logging in
+* Successfully logging in",":
+
+* Getting stuck in a loop of trying to open the app
+* Logging out
+* Feed not loading
+* Session expired message despite only just opening the app."
+":
+
+* Tapping on a notification
+* Switching between accounts",":
+
+* Posts turning into reels without user consent
+* Separating page notifications from profile notifications
+
+Note: These events are organized based on the information provided in the review. The events may not be exhaustive, and there may be other events that can be identified based on the context of the review."
+":
+
+* Logged into Facebook
+* Keep asking for login credentials
+* Uninstallation and reinstallation of the app
+* Resetting password",":
+
+* Frequent logout issues
+* Incorrect messages upon login attempts (e.g. ""something went wrong"")
+
+Note: These events are organized based on the user's experience and the issues they encountered with the app. The grouping is not exhaustive, and additional events may be identified based on the review text."
+,
+,
+,
+"* Opening the app
+* Going on the app","* Slow notification delivery
+* Notifications no longer notify the user in real-time
+* Missed notifications due to delayed notification delivery"
+,
+,
+,
+,
+,
+"* Interacting with the app
+* Trying to see who left emoticons","* Glitches
+* Ghost images"
+,
+"* Clicking on videos
+* Expectation of opening the video as a video player","* Slow run of the app
+* Crashes during video playback
+* Automatically redirecting to the Reels section instead of opening the video as a video player."
+"* Entered password
+* Attempted to log back in multiple times","* Unexpected error message
+* Inability to log in despite entering correct password"
+"* Watching full videos
+* App completely stopping
+* User having to shut off Facebook and restart it","* Undesirable behavior violating user expectations
+* Rich information about issues in negative reviews
+
+Note: These events have been grouped based on their relevance to the given review. The actual events may vary depending on the specific context and content of the review."
+,
+,
+,
+* Interacting with the app (app is fine most of the time),"* App becoming jittery and unstable (especially in Marketplace)
+
+Note: The events are organized into related groups based on their context and purpose. Within each group, events are separated by commas to illustrate the different actions or issues involved."
+":
+
+* Interacting with the app
+* Watching videos on the app
+* Switching between screens or closing the app",":
+
+* Random flashing of the app making it difficult to use
+* Losing video content when switching between screens or closing the app."
+,
+"* Interacting with the app
+* Posting content on the app
+* Having the account blocked for previous posts
+* Trying to contact customer support to dispute the block","* Undesirable behavior such as blocking the account without proper explanation or resolution
+* Content on the app that is worse than what the user posted and yet not receiving any action from the app
+* Difficulty in contacting someone at the app for assistance or dispute resolution."
+,
+":
+
+* Taking a screenshot
+* Disabling picture-in-picture",":
+
+* The share pop-up appearing after taking a screenshot
+* The share pop-up being annoying and preventing the user from taking long-form snapshots even after disabling picture-in-picture temporarily."
+,
+"* Opening the app
+* Experiencing a delay of 10 minutes or more before being able to log in","* Displaying a white screen for an extended period of time
+* Failing to allow login after the delay
+
+Note: These events are organized based on their relevance to the problem described in the review. The groups are not exhaustive, and other events may also be relevant to the issue."
+"* Logged in to Facebook
+* Tried logging in again
+* Used email to log in","* Logged out unexpectedly
+* Error message displayed when trying to log in
+
+Note: These events are just one possible way to organize the review into related groups. The actual events may vary depending on the context and content of the review."
+* Trying to use the app in landscape mode,"* App not supporting landscape mode
+* Error message displayed on the screen"
+"* Interacting with the app (Facebook)
+* Seeing inappropriate content on the app
+* Reading about others having the same problem
+* Feeling frustrated and disappointed with the app's performance","* Inappropriate content being displayed on the app without user consent
+* Lack of action from Facebook to address the issue
+* Concerns about the app's ability to cater to users' preferences and expectations."
+"* Watch videos on Facebook
+* Find ads annoying and frustrating
+* Ads appear at inappropriate moments, such as when the best part of a video is coming up
+* User expresses frustration with ads","* Ads are disturbing while watching videos
+* User cannot tolerate the ad pop-ups
+* User begs for the ads to stop
+
+Note: These events have been grouped based on their relevance and context, but they can be further refined and organized as per the specific requirements of the problem statement."
+"* updated the app
+* interacting with the app
+* going to the conversation","* glitches
+* stuff doesn't work
+* closing out and freezing
+* messages are no longer showing"
+,
+,
+"* Interacting with the app's profile page
+* Trying to send a message to someone from their profile page
+* Being redirected to the sign-in page
+* Being redirected to the messenger list of chats that the user already has open","* Failure to send a message from the profile page
+* Redirecting the user to sign-in page without proper authentication
+* Displaying the wrong chat list after signing in"
+"* updating the app
+* going to the home screen after updating the app
+* changing the profile in the messenger app","* forced navigation to the home screen after updating the app
+* glitches in the profile when changing it in the messenger app."
+,
+* Going to a group (public or private),* Seeing posts in a group that are not part of it (undesirable behavior)
+,
+,
+":
+
+* Sharing memories on the app
+* Getting flagged for sharing too many memories
+* Flagging content from the past that was already shared
+* Feeling frustrated with the app's sensitivity settings",":
+
+* Undesirable behavior of flagging content without apparent reason
+* Violation of user expectations for fun and humorous experience on social media
+* Negative impact on user attraction and retention due to unaddressed app problems"
+"Events:
+
+
+Selecting a Facebook memory from a different date
+Selecting the settings icon to change the date of the memories
+Loading the memories settings","Failure to display memories from a different date
+Failure to load the memories settings
+Undesirable behavior when trying to access the settings icon"
+"Here are the events extracted from the review:
+
+
+
+* The user tries to log in to their account but is unable to access it.
+* The user knows their password and email address, yet they are still unable to login.
+* The user attempts to reset their password using the ""forgot password"" feature, but it does not work.","* The app did not open or respond as expected (despite the user being able to log in with their password and email address).
+* The app failed to send a password reset code despite the user's attempts."
+,
+,
+"* Interacting with the app
+* Receiving an error message
+* Being logged out
+* Trying to log back in","* Session expired error
+* Unable to log back in
+
+Note: These events are organized based on their relationship to the user's interaction with the app. The user action events describe the actions taken by the user, while the app problem events describe the undesirable behaviors or errors encountered by the user."
+,
+":
+
+* Opened Instagram app
+* Trying to load or send content
+* Googled for help
+* Deleted and reinstalled the app
+* Cleared cache and data
+* Tried to re-log in",":
+
+* App stopped working
+* Different error message each time trying to log back in
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the user's experience and the specific issue with the app."
+"* Installing new update
+* Seeking video
+* Replying to a comment
+* Navigating through notifications","* Video stopping and freezing when seeking
+* Status bar becoming black and looking bad when navigating through notifications
+* Tons of unspecified issues with the app."
+"* Interacting with the slide bar to rewind or fast forward a video
+* Encountering glitches while using the app","* The slide bar freezing and requiring a restart of the video or a complete replay of the video to resolve the issue
+* Negative user experience due to the glitches and frozen slide bar"
+"* Moving the video or reel forward
+* Video stopping when moving forward
+* Line showing where reached in the reel stopping showing
+* Inability to move the video further","* Malfunctioning of the app when moving the video or reel forward
+* Lack of functionality in displaying the line showing where reached in the reel
+* Need for immediate attention from developers to fix the issue."
+,
+,
+"* The user updated to the new version of the app.
+* The user tried to refresh their Instagram feed but was unable to do so.
+* The user attempted to log in to their Instagram account but was met with an error message.
+* The user tried logging in from Chrome but encountered the same issue.","* Bugs have been introduced since the new version was released.
+* The user is unable to refresh their Instagram feed.
+* The user is unable to log in to their Instagram account.
+* The user receives an error message when trying to log in from Chrome."
+,
+,
+,
+,
+,
+,
+,
+"* Tapping the reel icon
+* Trying to refresh the page","* The reel icon not appearing when tapped
+* The page not refreshing properly after tapping the reel icon
+
+Note: These events are organized into groups based on their relation to the user's interaction with the app. User action events describe the actions taken by the user, while app problem events describe undesirable behaviors or issues with the app."
+,
+,
+,
+"* Verifying email
+* Changing password
+* Sending OTP for verification","* Failure to send OTP for verification
+* Inability to verify work email
+* Starting from the beginning again and again when switching tabs."
+"Events:
+
+
+
+* Using the app for 5-6 months (user action)
+* Providing premium access (user action)","* Suggesting garbage job suggestions even after using premium for 5-6 months (app problem)
+* Implementing AI in a way that results in poor performance (app problem)"
+"* Clicking on the ""more"" button to view the entire job description text",* The text is not visible in white when it should be
+,
+,
+"Events:
+
+
+
+* Joined LinkedIn
+* Connected with few people",* Error connecting to the account
+"* Using the app for the second time
+* Interacting with a client through the app
+* Typing on the app","* Restricted the app's functionality
+* Logged out the user's account
+* Displayed incorrect login credentials
+
+Note: These events are organized into related groups based on their similarity in nature and purpose. The events within each group are separated by commas."
+"* Interacting with the app
+* Trying to set up an account
+* Entering a phone number for verification
+* Receiving errors or difficulties during the verification process","* Impossibility to set up an account
+* Limitations on the number of attempts for verification
+* Frustration and disappointment with the app's functionality
+
+Note: These events are organized into groups based on their relevance to the review. The user action events describe the actions taken by the user, while the app problem events highlight issues with the app's performance or functionality that caused frustration for the user."
+,
+":
+
+* Interacting with the app
+* Getting tricked into signing up for a premium subscription for free
+* Being charged for the premium subscription before the billing cycle date
+* Canceling the subscription",":
+
+* Violating user expectations by charging for a service that was promised to be free
+* Charging the user before the billing cycle date, which caused confusion and frustration
+* Failing to properly cancel the subscription, leading to additional charges"
+":
+
+* Cancelled premium subscription 3 days prior to end of trial period",":
+
+* Deducted subscription amount from user's bank account despite cancellation
+
+Therefore, the events in this review can be organized into two groups:
+
+[User Action Events]
+
+* Cancelled premium subscription"
+,
+"* Installing the app
+* Receiving verification codes (3 times)
+* Installing the app again (twice)",* Failure of the app to function correctly (installation and verification code issues)
+,
+":
+
+* Clicking on the ""Easy Apply"" button",":
+
+* Error occurred while loading the page
+* Violation of user expectations (related to the ""Easy Apply"" feature)"
+"* interacting with the app
+* receiving notifications
+* missing notifications","* spamming the user with notifications when there are no notifications to notify about
+* violating the user's expectations by sending unnecessary or unwanted notifications"
+"* Opening the app
+* Connecting the app to a Google account",* Crashing of the app whenever the user opens it or connects it to a Google account
+"* Trying to sign in
+* Getting stuck in a loop asking to sign in","* Not able to log in
+* Broken app"
+"Events:
+
+
+
+* Users try to verify their identity using the app
+* Users upload images of their documents to verify their identity","* The app does not catch the images of the documents
+* The app never verifies the user's identity
+
+Explanation:
+The events in this review are organized into two groups: user action events and app problem events. User action events describe the actions taken by users when interacting with the app, such as trying to verify their identity and uploading images of their documents. App problem events describe the issues experienced by users, such as the app not catching the images or never verifying their identity. These events highlight potential problems that developers should address to improve the user experience."
+,
+,
+,
+"* Interacting with the app
+* Receiving email notifications about jobs the user is not always qualified for
+* Clicking on a job from an email notification
+* Being told to have the app installed, despite already having it installed
+* Searching for the job after receiving the email notification but unable to find it.","* App glitches and sends incorrect notifications
+* Jobs not being displayed correctly in search results."
+"* Logging into LinkedIn account
+* Expecting confirmation code to be sent to the registered phone number","* Failure to send confirmation code to the registered phone number
+* Restricting the account without proper explanation or solution"
+,
+"* Interacting with the app (e.g., using LinkedIn)
+* Experiencing issues or frustration with the app (e.g., nothing working properly, being frustrated)","* Being blocked from accessing the app at times
+* Experiencing undesirable behavior from the app (no detail provided)"
+"* Texting someone on LinkedIn
+* Having a conversation with the other party
+* Typing at the same time as the other party","* Getting stuck or hanging during texting
+* Being slow and taking too long to respond
+* Frequent hangs or crashes while using the app
+
+Note: These events are organized based on their relevance to the review and may not be exhaustive of all possible events."
+,
+"* Interacting with the app
+* Expecting to get good information
+* Asking for money","* Difficulty getting good information
+* Unclear instructions or expectations
+* Requesting money before providing value"
+"* Searching for new contacts to connect with
+* Excluding existing contacts from search results","* Violating user expectations by not allowing users to exclude existing contacts from search results
+* Making the search process annoying and inefficient"
+,
+"login, bring back to same page","loop, unable to login, bring back to same page again."
+":
+
+* Opening the app
+* Updating the app",":
+
+* Crashing of the app
+* Failure to open the app after updating"
+,
+,
+"* Opening the app from a browser or link
+* Loading data (not loaded)
+* Seeing a white screen with a back arrow on top","* Data not loading properly
+* App consistently showing white screens instead of properly loading content
+
+Note: Some events may belong to multiple groups, depending on how they are interpreted."
+,
+"* updated the app
+* interacted with the filters (both disappearing and still available to others)
+* messaged the developer to fix the issue multiple times","* beauty filter disappeared from device after update
+* filters completely disappeared from device
+* no response or fix from developer despite multiple messages
+* frustration caused by lack of resolution"
+,
+"* Opening the video editor on top of the screen
+* Trying to change and see recommended music for the video
+* Previewing the slideshow and experiencing issues with the text
+* Trying to post the content but facing difficulties due to the position of the text, audio, and cropping of pictures.","* The option to change and see recommended music for the video is not available
+* There are issues with the text on the slideshow, including it being in a different place than where it was intentionally placed
+* The text vanishes completely in some cases
+* Users are unable to post content due to the position of the text, audio, and cropping of pictures."
+"* Using Samsung phone
+* Trying to take videos with the phone's camera
+* Automatically brightening the video
+* No way to fix the issue","* Automatically brightening the video too much, making everything lighter than it should be
+* Making the face look horrid when the whole face is in frame
+
+Note: These events are organized based on the information provided in the review. The events may not necessarily be mutually exclusive, and some events may belong to more than one group."
+,
+,
+,
+"* Opened the app
+* Swiped up to watch a video
+* Clearing cache","* Crashing
+* Slow performance
+* Stuck on only one video
+* App stopped working"
+,
+,
+"* Opened the app
+* Expected dark mode feature is not available
+* Encountered a glitch with storage
+* Experiencing worse ads than usual
+* App is not loading properly, even with good internet connection
+* Clicking on lives every time trying to swipe past them","* Android does not have dark mode (despite snap even giving us dark mode)
+* Storage glitch making it difficult to see how much storage the app is taking up
+* Ads are getting worse than usual
+* App is not loading properly, including when connection is good
+
+Note: These events are organized based on the information provided in the review. The events may not be exhaustive or exclusive, and there may be additional events that are not mentioned in the review."
+"* Opening the app
+* Trying to upload a video
+* Getting a message that the video failed to upload
+* Being told to try again
+* Seeing two versions of the same video on the page","* Poor performance since the last update
+* Causing the phone to crash
+* Lagging when opening the app
+* Failing to upload a video"
+"* Tapping the app to record videos using the bokeh effect
+* Tapping the ""Save"" button after recording a video
+* Checking the saved videos in the album","* The app taking a lot of data while the user is using it
+* The app showing that the video has been saved to the album, but when the user checks, there are no videos there
+* The app releasing frequent updates every minute without the user's consent."
+"Events:
+
+
+
+* Opening the app to view a slideshow
+* Trying to swipe to the next photo","* Sideshow stopping working for the user
+* Black screen appearing instead of the slideshow
+* User unable to swipe to the next photo despite trying everything
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the specific issue and the app's functionality."
+"* Using the app for a while now
+* Trying to use the slide show","* The slide show not working properly
+* User being unable to use the slide show as expected
+* User expressing frustration with the issue
+* User threatening to move to a different app (TikTok Lite) if the problem is not fixed"
+"* Used to have a feature (TikTok slideshow)
+* Tried everything to restore the feature (including uninstalling and reinstalling the app)
+* Lost all drafts in the process","* Feature is no longer available (TikTok slideshow)
+* Drafts were lost during attempt to restore feature
+
+Note: These events are not mutually exclusive, and some events may belong to multiple categories."
+,
+,
+"* Interacting with the app (hitting ""not interested"")
+* Expecting a certain functionality to work (blocking sounds or an ""not interested in sound"" option)","* App not working as expected (getting tictoks with annoying songs even after hitting ""not interested"")
+* Violating user's expectations (getting unwanted sounds despite attempting to block them)"
+":
+
+* Turning off app permissions
+* Accessing user data despite permission settings",":
+
+* Violating user expectations by accessing restricted data even when permissions are turned off
+* Inconsistent behavior with regard to privacy settings and data access"
+"* I MAKE videos
+* I haven't every copied someone's video
+* I may have gotten the idea of a clip from an anime from someone
+* I can make it from the same clip but of course have different edits that go with it","* It keeps putting my videos as copyright for the sound
+* I haven't every copied someone's video
+* Apparently no you guys won't let me make my videos that people love watching"
+"* Interacting with TikTok app
+* Singing in a TikTok video
+* Expecting sounds to be audible in the app","* Mutting sounds in the app
+* Making videos look ""stupid"" due to lack of sound
+* Negative impact on user experience due to muting sounds"
+"* Interacting with the app to watch videos
+* Trying to follow someone on the app","* Randomly logging the user out
+* Refusing to acknowledge the user's attempts to follow someone
+
+Note: These events have been organized into related groups based on their relevance to the problem at hand. The events within each group are separated by commas."
+,
+,
+"* Uploading videos to the app
+* Deleting a video
+* Reporting issues with the app","* Videos deleting without user intention
+* Insufficient review of reported issues"
+,
+,
+"* Watched creators you followed
+* Reinstalled the app
+* Restarted the app","* Creators you followed disappeared
+* Bugs occurred every time
+
+Note: These events have been organized into related groups based on their similarity and relevance to the review."
+,
+,
+"* Interacting with the app (good app)
+* Updates (screwed it)","* Difficulty finding good filters
+* Inability to find a specific filter (cool filter)
+* TikTok not displaying filters"
+"* filing a music video
+* lip syncing","* laggy for no reason
+* music doesn't match lip syncing"
+,
+* Interacting with the app for a long time,"* Kicking the user out of the app or freezing the app
+* Refusing to let the user back in the app for a while"
+"* Taking too long to launch the app
+* Typing a message to someone","* Cutting out halfway through the message while typing
+
+Note: These events have been organized based on the provided review and may not be exhaustive or accurate representations of all possible user actions and app problems."
+":
+
+* Interacting with the app (e.g., opening it)
+* Expecting to see full-screen videos and comment sections",":
+
+* Displaying half-screen videos
+* Cutting off content in most videos
+* Blacking out comment sections
+
+Note: These events are organized based on the user's experience and the problems they encountered. Developers can use these events to identify and prioritize issues that need to be addressed."
+,
+":
+
+* Opening the app
+* Trying to access the app
+* Receiving an error message (""stop"" or ""glitching"")
+* Being logged off of their account",":
+
+* Glitching and crashing
+* Logging users off their accounts without proper authorization
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the context of the app and its features."
+"* Interacting with the app
+* Posting content","* Unknown suspension of account
+* Difficulty logging in"
+"* The user tries to upload something using the app
+* The app freezes","* The app closes unexpectedly
+* The app does not have a feature to link other apps after changing to business mode."
+"Events:
+
+
+- Users upload videos to the app
+- Users expect high-quality videos","- App blurs videos after uploading
+- Downloaded videos are even more blurred than the original video
+- Violates user's expectations of a video editing app
+- Negative reviews highlight the issue"
+"* The user follows creators on TikTok
+* The user interacts with the app after the recent update","* TikTok no longer shows when creators are live, even when directly going to their page
+* The app fails to meet the user's expectation of being notified when their followed creators go live."
+"* Taking pictures in portrait mode
+* Uploading the pictures to TikTok","* Pictures being uploaded in landscape mode instead of portrait mode
+* The app violating the user's expectations by changing the orientation of the images without their consent."
+,
+"* Opening the app after receiving a notification
+* Expecting to see the content in the app but unable to due to no internet connection","* App not working due to lack of internet connection
+* Giving incorrect notifications or information to the user"
+* clicking on the app,* the app not opening after clicking
+,
+,
+,
+"* interacting with the app
+* navigating the app","* undesirable animation when navigating the app
+* violation of user expectations (related to the animation)"
+,
+,
+,
+,
+,
+":
+
+* Interacting with the app (love this app)
+* Posting videos on the platform (posted a video)
+* Observing views and followers count (have 100k followers and now views on my video only around 100)",":
+
+* Issues with view counts (views only around 100 despite having 100k followers)
+* Demotivation caused by the issue (demotivate me)"
+"* Created an account on the app
+* Made an appeal for wrongful ban of their account
+* Created a new account after appeal was denied","* Wrongful banning of the user's account
+* Denial of the user's appeal for the ban
+* Loss of access to TikTok Shop and saved filters after creating a new account
+* Filters becoming unavailable in the user's region without any previous issues."
+"* Posted something on the app
+* Saw similar videos on the app that didn't get in trouble","* The app is being too strict
+* The app is violating the user's expectations by flagging a video as a problem now, when it wasn't an issue before
+* The app needs to be fixed to address this issue"
+,
+"* Interacting with the app
+* Posting something on the app","* Lack of certain features in the app (e.g. Add to playlist)
+* Failure to update the app properly (even though the user has updated the app)
+
+[Possible Related Groups]
+
+* User expecting certain features to be available but not finding them
+* Developer failing to deliver on promised updates or features"
+,
+,
+"* Opening the app
+* Trying to update the app
+* Making slideshows using the app","* Failure to update the app when requested
+* Loss of functionality for making slideshows"
+,
+"* Clicking on the app
+* Trying the same thing multiple times","* Suddenly stopping working
+* Loading but not functioning properly
+* Immediately going back to the home screen after loading
+* Removing itself after loading
+
+Note: These events are organized based on their relationship to the user's experience and expectations. The events within each group are separated by commas, indicating that they are related actions or issues that occurred simultaneously."
+,
+,
+,
+,
+":
+
+* User tries to upload or watch videos on TikTok
+* User encounters the ""video is processing"" bug",":
+
+* Video does not finish processing despite user waiting for a significant amount of time
+* Bug causes inconvenience and frustration for users
+
+Note: These events are organized into related groups based on their relevance to the review. The user action events describe the actions taken by the user, while the app problem events highlight the issues with the app that need to be addressed."
+"* Uploading a video
+* The uploading process stopped
+* The app did not upload the video after several hours of showing the ""uploading"" status","* The app got stuck during the uploading process
+* The video did not upload despite showing the ""uploading"" status for several hours
+* The user found it frustrating that the issue persisted despite their efforts to resolve it"
+"Events:
+
+
+
+* Interacting with the app (opening it)
+* Losing drafts due to reinstallation after updates","* App not opening after updates
+* Losing user's progress or data (in this case, drafts)"
+"* Interacting with the app (e.g., ""I used the app"")
+* Getting banned without any strikes or wrongdoing (e.g., ""it randomly banned me"")","* Unknown reason for banning (e.g., ""it would randomly ban me even though I did nothing wrong"")
+* Lack of fix from the developers (e.g., ""the TikTok developers need to fix this now"")"
+,
+":
+
+* Interacting with the app's homepage
+* Hating the name change",":
+
+* Complicated user interface
+* Absurd content on the app's homepage
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the specific context and user experience."
+"* Users interacting with the app
+* Users taking actions such as liking, commenting, or sharing content","* App not loading content
+* App failing to work every couple of hours
+* Rebranding leading to app issues"
+"* Interacted with the app
+* Experienced a blank screen with the message ""cannot receive posts at this time""","* Suddenly showed a blank screen
+* Failure to receive posts despite user actions such as leaving and coming back the next morning, uninstalling and re-installing the app."
+,
+,
+":
+
+* Interacting with the app (e.g., tapping, swiping, rotating)
+* Expecting the app to respond after every few seconds
+* Rotating the video in full screen
+* Going back to the previous video and expecting it to continue from where they left off",":
+
+* App not responding after every few seconds
+* Video not continuing from where the user left off when rotating and going back
+* Undesirable behavior violating user expectations"
+"* Loading the app
+* Trying to view pictures in a video before clicking on it
+* Clicking on a video","* Videos taking a long time to load regardless of network
+* Inability to see pictures in a video before clicking on it
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the context and the specific app being reviewed."
+,
+,
+,
+"* The user tried to reach the app.
+* The user encountered an issue with the app being an 18+ site for minors.
+* The user tried to create a new account using an email that was not verified.","* The app did not perform adequate identity checks for users.
+* The app allowed minors to access the site without proper verification.
+* The app provided an easy way for users to create new accounts without proper verification."
+,
+"* trying to post pictures
+* multiple attempts to post pictures without success
+* drafting a post
+* failure to post after multiple attempts","* failing to post pictures after multiple attempts
+* inconsistent posting behavior
+* frustration caused by the app's performance issues"
+"* Interacting with the app (loading the app, trying to use it)
+* Experiencing issues with the app's performance (slow loading, constant ""try again"" messages)","* Violating user expectations (not working as expected, regardless of internet speed)
+* Causing frustration and disappointment (constant errors, delayed responses)
+
+Note: These events are not mutually exclusive, and some events can belong to multiple groups."
+,
+":
+
+* Interacting with the app ( Pathetic, it's not refreshing)
+* Reinstalling the app",":
+
+* Loading issue on the login page with no progress
+* Violating user expectations (keeps loading on the login page with no progress)"
+":
+
+* Trying to type a message
+* Mentioning the issue 2 weeks ago",":
+
+* The app shutting down suddenly
+* The issue occurring in other countries as well"
+,
+,
+"* Loading slowly
+* Receiving notifications from a creator's tweet
+* Clicking on the notification","* Slow loading times
+* Incorrect functionality (loading long when clicking on a notification)"
+,
+,
+,
+,
+"* Opened the app
+* Couldn't see some tweets","* Runs slower than before
+* Takes ages to load a video
+* Can't search for other X accounts
+
+Note: The events are organized into related groups based on their context and relevance to the review."
+,
+"* Starting to read an interesting article or post
+* Refreshing the feed
+* Losing the content that was being viewed due to the refresh","* The app refreshing unexpectedly and losing user's view
+* The user experiencing frustration with the app's behavior"
+,
+"* Sending photos via DM
+* Scroll through DMs","* Photos appearing as black spots after last two updates
+* Profile pictures getting interchanged while scrolling in DM"
+":
+
+* Interacting with the app
+* Not using the app",":
+
+* Keeping the user's account locked without any explanation
+* Failure to provide a reason for the lock"
+":
+
+* trying to download the old versions of the app
+* disabling auto-updates",":
+
+* the app updating by itself even with auto-updates disabled
+* the app being ""awful"" after the update"
+"* Created an account on X
+* Successfully went through the authentication process
+* Account was locked immediately after creating an account
+* Asked to repeat the authentication process due to account being locked","* App locked user's account without any notice or explanation
+* Repeatedly asked user to do the authentication process despite the issue with the account"
+,
+,
+":
+
+* interacting with the app",":
+
+* video player not working properly
+* users experiencing issues with the app"
+":
+
+* Interacting with the app (e.g., opening, closing, playing videos)
+* Taking actions within the app (e.g., tapping buttons, scrolling through content)",":
+
+* The app shutting down unexpectedly
+* Videos stopping in the middle of playback
+* Seeing only a single message (""Lets get started"") on the timeline
+
+These events can be organized into related groups based on their shared characteristics and context. By grouping similar events together, developers can better understand the issues that need to be addressed and prioritize their efforts more effectively."
+"* Trying to play old videos of any account
+* Video play is very distorted
+* Video pauses
+* Only background sound is playing","* Video play is distorted
+* Video pauses
+* Poor search engine functionality
+
+Note: The events have been grouped based on their relevance to the app's functionality and user experience."
+* Trying to access direct messages (DMS),"* Lagging
+* Crashing"
+"* Interacting with the app
+* Taking actions within the app (e.g., logging in, accessing features)","* Automatic lockout of the app without user input
+* Requiring users to complete verification challenges more than once (e.g., due to incorrect answers or login issues)
+
+So, the events from the review can be organized into the following groups:
+
+[User Action Events]
+
+* Interacting with the app
+* Taking actions within the app"
+":
+
+* Interacting with the app",":
+
+* Undesirable behavior that violates user expectations
+* Negative reviews containing rich information about issues."
+* Sending a message in the app,"* Sudden closure of the app
+
+Note: These events have been organized into related groups based on their similarity and relevance to the problem being reported. The events within each group are separated by commas."
+,
+,
+,
+,
+":
+
+* Interacting with the app after updating",":
+
+* Refreshing the homepage not working properly after update
+* Multiple bugs and errors occurring
+
+Note: These events have been organized into related groups based on their relevance to the review. The user action events describe the actions taken by the user, while the app problem events highlight the issues with the app's functionality."
+,
+,
+,
+,
+"* Watching YouTube, Instagram, and Facebook videos
+* Expecting high-quality video playback with no buffering","* Buffering even when the video quality is low
+* Slow video playback in X
+
+Note: These events have been organized into related groups based on their context and meaning. The user action events describe the actions taken by the user, while the app problem events highlight the issues with the app's performance."
+"* Interacting with the app at a rate of 120 Hz
+* Changing the font to default
+* Clearing the data of the app","* The app is not compatible with the specified frame rate (120 Hz)
+* The app's font changes unexpectedly
+* The app's font does not match the user's expectations (it restores to default X font after clearing data)"
+,
+,
+,
+,
+":
+
+* Downloaded the latest update
+* Trying to send tweets
+* Liking a post",":
+
+* Posts disappearing after liking
+
+Note: The events have been grouped into related categories based on their relevance to the review. The user action events describe the actions taken by the user, while the app problem events highlight the issues that the user encountered with the app."
+"* Consuming too much internet data
+* After latest app updates","* Violating user expectations
+* Demanding immediate attention from developers
+* Negative reviews containing rich information about issues
+* Significantly affecting user attraction and retention if left unaddressed"
+,
+,
+"* User opens Twitter app after update
+* User fails to see updated profile picture","* App does not display updated profile picture after update
+* User is unable to access updated profile picture
+
+Note: These events are organized based on the information provided in the review. The actual events may vary depending on the context of the review and the specific details mentioned."
+* User tries to use the app while their phone is charging,"* App fails to function properly when phone is on charge
+* Users experience frustration and disappointment due to app's inability to work during charging
+
+Therefore, the events from the review can be organized into two groups: user action events and app problem events."
+"* Opening the app
+* Waiting for new posts, notifications, or images/audio to load","* Failure to load new content while phone is charging
+
+Note: These events are organized into related groups based on their similarity and relevance to the review. The events within each group are separated by commas."
+"* Posting content on the app
+* Pressing on a tweet to view replies
+* Closing the app
+* Restarting the phone
+* Opening the app again
+* Deleting the app
+* Installing the app again","* Playing country music without user's permission
+* Not stopping the music after closing the app
+* Starting to play the music again after restarting the phone
+* Continuing to play the music after deleting the app
+* Failing to stop playing the music after installing it again."
+"* Opening the Twitter app
+* Viewing pictures and videos","* Long loading times despite having a good internet connection
+* Difficulty viewing videos and photos instantly like in other apps
+
+Note: These events can be further organized into sub-groups based on their relevance to the problem at hand. For example, you could have separate groups for events related to the app's performance, user experience, or technical issues."
+,
+,
+,
+,
+,
+"* Opening the app
+* Scrolling down to see tweets not previously seen
+* Preferring the previous behavior of the feed staying at the position left when closing the app","* Violating user expectations by automatically refreshing to the top of the feed every time the app is opened
+* Failing to maintain the user's preferred feed position when closing and reopening the app"
+,
+,
+,
+"Events:
+
+
+
+* Opening the app
+* Looking for notification bell
+* Seeing a limited number of notifications in the app compared to the number of notifications on the phone","* Loading issue with past notifications
+* Inconsistency between push notifications and in-app notifications
+* Failure to display all notifications in the app
+
+Note: These events are organized into related groups based on their context and purpose. The first group, [User Action Events], represents the actions taken by the user when interacting with the app. The second group,"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+"* Interacting with the app without changing any settings
+* Receiving pop-up notifications asking for authentication codes without requesting them
+* Clicking OK on a pop-up by mistake and being signed out","* Violating user expectations by requesting authentication codes without permission
+* Failing to recognize that the user did not request the code
+* Signing the user out unexpectedly after clicking OK on a pop-up."
+,
+,
+,
+,
+,
+,
+"Events:
+
+
+
+* Migrated from iOS to Android
+* Opened WhatsApp on Android
+* Experienced poor image and video compression quality
+* Expressed disappointment with the app's performance on Android","* Images and videos look horrible after compression
+* Messages still don't show up after backup
+
+These events can be organized into related groups:
+
+User Action Events:
+
+* Migration to Android
+* Opening WhatsApp on Android
+* Disappointment with app performance on Android
+
+App Problem Events:
+
+* Poor image and video compression quality
+* Messages not showing up after backup"
+,
+,
+"* Interacting with the app
+* Disabling notifications for the inactive account and the whole app","* The inactive account continues to send notifications even after disabling notifications
+* The app violates user expectations by sending unnecessary notifications"
+"* Sending pictures
+* Switching between accounts","* Bugs related to switching between accounts (4 times)
+* Not being able to send pictures for anyone"
+":
+
+* Making calls
+* Being taken to the home screen after making a call
+* Receiving an error message saying the person is on another call",":
+
+* App not functioning as expected (violating user expectations)
+* Frequent occurrence of the problem (significant impact on user experience)
+* Negative impact on user retention and attraction (mentioned in the review)"
+,
+"Events:
+
+
+
+* Calling someone
+* Showing ringing when there's no internet connection on the other side
+* Showing calling if there's an internet connection","* Failure to show calling if there's no internet connection on the other side
+* Inability to inform user if the call is going through to another phone."
+,
+,
+":
+
+* The user read a message
+* The user added the person they were chatting with to their contacts
+* The user updated the app",":
+
+* The blue tick did not show when the user sent a message
+* The user experienced bugs while communicating
+* The new update was perceived as negative by the user."
+,
+"* Record videos on Android
+* Post video on social media",* Video quality reduction when posting on social media (both Android and iPhone)
+,
+"* Sending messages
+* Deleting messages","* Losing deleted messages
+
+Note: The events are organized into related groups based on their logical relationships. Within each group, the events are separated by commas."
+,
+,
+"* Interacting with the app (e.g., updating status viewers, separating different aspects of an individual's life using lists)
+* Adding a scheduling feature for channels","* Lagging or slow performance, disrupting workflows
+
+Note: These events are organized into related groups based on the information provided in the review. The user action events describe the actions taken by the user, while the app problem events highlight undesirable behaviors or issues with the app."
+,
+,
+,
+":
+
+* Interacting with the app (e.g., posting videos and pictures on WhatsApp)",":
+
+* Ruining the quality of videos and pictures when posted on status
+* Failure to sort out the problem for ages"
+,
+"* Interacting with the app (e.g., changing a notification setting)
+* The app automatically changing the notification setting back to its original state
+* Not receiving a chat notification despite an incoming chat message","* Undesirable behavior of the app violating user expectations (e.g., auto-changing notification settings)
+* Incorrect functionality of the app (e.g., not showing a chat notification despite an incoming message)"
+"* Uploading a video on WhatsApp status
+* Viewing the video in question","* Automatically reducing the video quality upon upload
+* Displaying the video as blurry or horrible
+
+Note: These events have been grouped together based on their relatedness and mutual relevance to the problem at hand."
+"* viewing a status
+* pressing *read more*","* app getting blocked due to mistakes or misunderstanding
+* new update making it hard to press *read more*"
+,
+,
+":
+
+* Interacting with the app (e.g., launching the app, starting a video call)
+* Taking steps to resolve the issue (e.g., restarting the phone)",":
+
+* Failure of the front camera to work properly during a video call
+* Displaying the camera feed through the back camera instead of the front camera
+* Previous functionality not being available or different than expected
+
+Note: These events are just examples and may not be exact matches for the specific review given."
+"* Making an audio or video call
+* Data being off
+* Data being on","* Ringing always showing, regardless of data status"
+"* Interacting with the app (using WhatsApp)
+* Sharing links
+* Adding people to groups","* Account being blocked
+* Loss of grades due to app issues"
+,
+,
+,
