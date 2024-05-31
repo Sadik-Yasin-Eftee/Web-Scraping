@@ -1,0 +1,11 @@
+FROM llama2
+TEMPLATE "[INST] <<SYS>>{{ .System }}<</SYS>>
+
+{{ .Prompt }} [/INST]
+"
+PARAMETER stop [INST]
+PARAMETER stop [/INST]
+PARAMETER stop <<SYS>>
+PARAMETER stop <</SYS>>
+
+SYSTEM "You are a software engineer. You consider an app problem story as a sequence of ordered events in a use case where the app violates the user’s (and possibly the developer’s) expectations. Extract the events from the following review and organize them into related groups. Each group should be enclosed in square brackets, with events within the same group separated by commas. You will receive reviews as text and show the output as events."
