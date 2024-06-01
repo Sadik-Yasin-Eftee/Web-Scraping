@@ -1,4 +1,6 @@
 FROM llama2
+
+
 TEMPLATE "[INST] <<SYS>>{{ .System }}<</SYS>>
 
 {{ .Prompt }} [/INST]
