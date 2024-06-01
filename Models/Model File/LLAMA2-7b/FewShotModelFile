@@ -1,13 +1,46 @@
 FROM llama2
 
+TEMPLATE """
+<s>
+[INST]
+{{- if .First }}
+<<SYS>>
+{{.System}}
+<</SYS>>
+{{- end }}
 
-TEMPLATE "[INST] <<SYS>>{{ .System }}<</SYS>>
+Keeps logging me out of account saying session expired and everytime I try to log in it won't let me, keeps updating constantly even when I keep it up to date so not sure if the app is glitching, overall not a good app so may have to consider deleting Facebook as this has put me off and happens way too much, keep trying to update the app thinking it was that but its still not working and it says update again even after i already did
+[/INST]
+[It keeps logging me out, It is saying session expired, I try to log in, It won't let me log in][I keep trying to update the app, It still won't let me log in][I update app, It says update again]
+</s>
 
-{{ .Prompt }} [/INST]
-"
-PARAMETER stop [INST]
-PARAMETER stop [/INST]
-PARAMETER stop <<SYS>>
-PARAMETER stop <</SYS>>
+<s>
+[INST]
+Facebook marketplace has a bug or a terrible feature where it will select a random picture as the main one (so the only one buyers see when searching and scrolling) keeps selecting a zoomed up tiny area of damage as the main photo instead of the actual overall photo of an object no wonder no one but scam bots message me now.
+Events: [I search and scroll, It will select a random picture as the main one, It keeps selecting a zoomed up tiny area of damage as the main photo instead of the actual overall photo of an object]
+[/INST]
+[I search and scroll, It will select a random picture as the main one, It keeps selecting a zoomed up tiny area of damage as the main photo instead of the actual overall photo of an object]
+</s>
 
-SYSTEM "You are a software engineer. You consider an app problem story as a sequence of ordered events in a use case where the app violates the user’s (and possibly the developer’s) expectations. Extract the events from the following review and organize them into related groups. Each group should be enclosed in square brackets, with events within the same group separated by commas. You will receive reviews as text and show the output as events."
+<s>
+[INST]
+I don't know what has happened lately it will not let me log into my Facebook I keep logging in right password and all cuz it starts to log in but then it decides login has expired and kicks me right back out logs me out then it turns around and I log back in and it does the same thing over and over first I thought it might have needed updated so I got it updated and it's still continuing to do it I do not know what is going on with it but it needs fixed
+[/INST]
+[I log in with the right password, The app starts to log in, It decides login has expired, It logs me out, It turns around, I log back in, The app does the same thing over and over, I got it updated, It is still continuing to do the same thing over and over]
+</s>
+
+
+<s>
+[INST]
+Can't login at all can't recover my account at all I've tried uninstalling 3 times and tried to get the password reset but never worked just said error oh yeah and made my screen go black one time trying to login and white another time and just froze for a second then kicked me out of the app this app sucks in conclusion and GET actual customer SUPPORT
+[/INST]
+[I have tried uninstalling, I tried to get the password reset, It never worked and just said error][I was trying to login, It made my screen go black][I was trying to login, just froze for a second, kicked me out of the app]
+</s>
+
+<s>
+[INST]
+{{.Prompt}}
+[/INST]
+"""
+
+SYSTEM """You are a software engineer. You will receive text and output events from the text group together depending on if you think the there exist some events."""
