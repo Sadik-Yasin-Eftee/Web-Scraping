@@ -1,0 +1,51 @@
+Reviews,Outputs
+I try to upload a photo befre the app crashes.,{'the app crashes': ['try to upload a photo']}
+I log in untl the app freezes.,{'the app freezes': ['log in']}
+I open the settings menu thn the app stops responding.,{'the app stops responding': ['open the settings menu']}
+I click on a notification bfre the app shuts down.,{'the app shuts down': ['click on a notification']}
+I start a video call ten the app lags.,{'the app lags': ['start a video call']}
+I send a message bfr the app crashes.,{'the app crashes': ['send a message']}
+I switch to another tab untl the app becomes unresponsive.,{'the app becomes unresponsive': ['switch to another tab']}
+I attempt to open a file befor the app crashes.,{'the app crashes': ['attempt to open a file']}
+I try to access my profile util the app freezes.,{'the app freezes': ['try to access my profile']}
+I navigate to the chat section thn the app stops responding.,{'the app stops responding': ['navigate to the chat section']}
+I tap on a notification bfre the app shuts down.,{'the app shuts down': ['tap on a notification']}
+I start a call thn the app lags.,{'the app lags': ['start a call']}
+I write a comment bfore the app crashes.,{'the app crashes': ['write a comment']}
+I switch to a different view util the app becomes unresponsive.,{'the app becomes unresponsive': ['switch to a different view']}
+I try to upload a document befre the app crashes.,{'the app crashes': ['try to upload a document']}
+I login util the app freezes.,{'the app freezes': ['login']}
+"Evrytime I try to log in, it says my session expired and kicks me out.",[{'session expired': ['try to log in']}]
+"The app keeps updating constantly, evn though I've already updated it.",[{'constant updating': ['update the app']}]
+I can't log into my Facebook account no matter how many times I try.,"[{""can't recover account"": ['try to recover account']}]"
+"Facebook's algorithm buries everything evry
+tme I try to share on my wall, making it impossible for anyone to see.",[{'algorithm buries posts': ['try to share on wall']}]
+The app logs me out randomly and makes me go through two-factor authentication evrtim I try to log back in.,[{'random logouts': ['try to log back in']}]
+"Suddenly, the app won't show anything on my page aftr I log in .","[{""app won't show anything"": ['try to log in']}]"
+"My Facebook completely crashed, and now I can't log in at all.",[{'complete crash': ['try to log in']}]
+"After the latest update, the app won't let me log in or create a new account.","[{""can't create new account"": ['try to log in']}]"
+"My account got hacked, and now I can't get any help from customer support.",[{'hacked account': ['try to contact support']}]
+The auto-refresh on the news feed makes it impossible to read articles or comments properly.,[{'auto-refresh on news feed': ['read articles']}]
+"I can't block all reels, and the ones I can block keep coming back. ","[{""can't block reels"": ['try to block reels']}]"
+The app causes unexpected logouts and doesn't let me log back in.,[{'unexpected logouts': ['try to log back in']}]
+Aftr clicking on a link reloads the whole news feed instead of returning to the post I was reading. ,[{'link reloads news feed': ['click on link']}]
+"The app keeps telling me my session expired,aftr I just logged in.",[{'constant session expiry': ['try to log in']}]
+It won't log me in and keeps saying my session expired whenver I try to log in.,[{'session expired': ['try to log in']}]
+"The app repeatedly tells me to try again whnevr I try to log in, even after resetting my password.",[{'repeated login attempts': ['try to log in']}]
+App constantly crashing when trying to post a status,[{'App constantly crashing': ['When trying to post a status']}]
+Notifications not showing up when scrolling through the feed,[{'Notifications not showing up': ['When scrolling through the feed']}]
+Videos freezing randomly when watching videos,[{'Videos freezing randomly': ['When watching videos']}]
+Messages not sending when trying to send a message,[{'Messages not sending': ['When trying to send a message']}]
+Photos not uploading properly when uploading a photo,[{'Photos not uploading properly': ['When uploading a photo']}]
+Settings not saving changes when accessing settings,[{'Settings not saving changes': ['When accessing settings']}]
+Posts disappearing when writing a post,[{'Posts disappearing': ['When writing a post']}]
+Comments not appearing when commenting on a post,[{'Comments not appearing': ['When commenting on a post']}]
+Profile information not updating whn updating profile information,[{'Profile information not updating': ['When updating profile information']}]
+Reactions not registering wen reacting to a post,[{'Reactions not registering': ['When reacting to a post']}]
+Stories not loading whn viewing stories,[{'Stories not loading': ['When viewing stories']}]
+Likes not showing up whn liking a post,[{'Likes not showing up': ['When liking a post']}]
+Shares not going through wen trying to share a post,[{'Shares not going through': ['When trying to share a post']}]
+Events not displaying whe accessing events,[{'Events not displaying': ['When accessing events']}]
+Groups not accessible whn trying to join a group,[{'Groups not accessible': ['When trying to join a group']}]
+Pages not loading properly wen accessing pages,[{'Pages not loading properly': ['When accessing pages']}]
+Search results not relevant hen searching,[{'Search results not relevant': ['When searching']}]
