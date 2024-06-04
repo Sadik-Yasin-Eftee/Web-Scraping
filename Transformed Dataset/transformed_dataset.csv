@@ -1,0 +1,392 @@
+"<s>[INST] <<SYS>>
+Suppose you are an analyst who needs to take a user review of an application as input and extract all the app problems, and the corresponding user actions that the user takes to encounter the app problem.
+
+An app problem is defined as a single problem faced when interacting with an application. A user action is defined as a single interaction with the application.
+
+Show the outputs in the form of python list of dictionaries.
+
+The list will contain dictionaries, each dictionary will have app problem as the key and a list of user actions in sequential order as values. It is based on the following scenarios:
+
+Scenario-1: A pair of user action and app problem exists. For that write the output as follows:
+
+[{*insert app problem-1*: [*insert user action-1*]}]
+
+Scenario-2: An app problem may have multiple user actions in sequence that lead to that app problem. For that, write the output as follows:
+
+[{*insert app problem-1*: [*insert user action-1*, *insert user action-2*]}]
+
+Scenario 3: A user action can lead to multiple app problems. For that write the output as follows:
+
+[{*insert app problem-1*: [*insert user action-1*]}, {*insert app problem-2*: [*insert user action-1*]}]
+
+Scenario-4: There are no app problems with corresponding user action, or there are app problems with no user actions. For that, we leave it blank.
+<</SYS>>
+When I try to log in, it says my password is incorrect. [/INST] [{'Incorrect password error': ['Try to log in']}] </s>"
+<s>[INST] The app crashes every time I open the settings. [/INST] [{'App crashes': ['Open the settings']}] </s>
+<s>[INST] I can't upload my profile picture; it always fails. [/INST] [{'Profile picture upload fails': ['Upload my profile picture']}] </s>
+<s>[INST] The app freezes when I try to send a message. [/INST] [{'App freezes': ['Send a message']}] </s>
+<s>[INST] I get an error when I attempt to update my account details. [/INST] [{'Error updating account details': ['Update my account details']}] </s>
+<s>[INST] The payment fails whenever I try to purchase a subscription. [/INST] [{'Payment fails': ['Purchase a subscription']}] </s>
+<s>[INST] The search function doesn't return any results. [/INST] [{'No search results': ['Use the search function']}] </s>
+<s>[INST] I can't add items to my cart. [/INST] [{'Unable to add items to cart': ['Add items to cart']}] </s>
+"<s>[INST] The app doesn't load past the splash screen. [/INST] [{""App doesn't load"": ['Open the app']}] </s>"
+<s>[INST] I get logged out automatically after a few minutes. [/INST] [{'Automatic logout': ['Use the app']}] </s>
+<s>[INST] My location is not detected when I try to share it. [/INST] [{'Location not detected': ['Share my location']}] </s>
+<s>[INST] Notifications are not showing up for new messages. [/INST] [{'Notifications not showing': ['Receive new messages']}] </s>
+<s>[INST] The app shows a blank screen when I try to open my messages. [/INST] [{'Blank screen on messages': ['Open my messages']}] </s>
+<s>[INST] I can't connect my social media accounts. [/INST] [{'Unable to connect social media accounts': ['Connect social media accounts']}] </s>
+"<s>[INST] The video player doesn't start. [/INST] [{""Video player doesn't start"": ['Play a video']}] </s>"
+<s>[INST] The app doesn't save my preferences. [/INST] [{'Preferences not saved': ['Save my preferences']}] </s>
+<s>[INST] I can't reset my password. [/INST] [{'Unable to reset password': ['Reset my password']}] </s>
+<s>[INST] The app crashes when I receive a call. [/INST] [{'App crashes': ['Receive a call']}] </s>
+<s>[INST] The chat history is not loading. [/INST] [{'Chat history not loading': ['View chat history']}] </s>
+<s>[INST] I can't change my profile name. [/INST] [{'Unable to change profile name': ['Change my profile name']}] </s>
+<s>[INST] The app freezes on the loading screen. [/INST] [{'App freezes': ['Open the app']}] </s>
+<s>[INST] I get an error message when I try to download files. [/INST] [{'Error downloading files': ['Download files']}] </s>
+<s>[INST] The app doesn't sync my calendar. [/INST] [{'Calendar not syncing': ['Sync my calendar']}] </s>
+<s>[INST] I can't join any groups. [/INST] [{'Unable to join groups': ['Join groups']}] </s>
+<s>[INST] The app won't let me delete my account. [/INST] [{'Unable to delete account': ['Delete my account']}] </s>
+<s>[INST] The screen goes black during video calls. [/INST] [{'Black screen during video calls': ['Make a video call']}] </s>
+<s>[INST] I can't send photos in the chat. [/INST] [{'Unable to send photos': ['Send photos in the chat']}] </s>
+<s>[INST] The app doesn't remember my login details. [/INST] [{'Login details not remembered': ['Log in']}] </s>
+<s>[INST] The notifications are delayed. [/INST] [{'Notifications delayed': ['Receive notifications']}] </s>
+<s>[INST] The app crashes when I try to open notifications. [/INST] [{'App crashes': ['Open notifications']}] </s>
+<s>[INST] The app logs me out when I change settings. [/INST] [{'App logs out': ['Change settings']}] </s>
+<s>[INST] I can't link my payment method. [/INST] [{'Unable to link payment method': ['Link payment method']}] </s>
+<s>[INST] The app doesn't show my friends list. [/INST] [{'Friends list not showing': ['View friends list']}] </s>
+<s>[INST] The music player stops randomly. [/INST] [{'Music player stops randomly': ['Play music']}] </s>
+<s>[INST] I can't block users. [/INST] [{'Unable to block users': ['Block users']}] </s>
+<s>[INST] The app freezes when I receive a message. [/INST] [{'App freezes': ['Receive a message']}] </s>
+<s>[INST] I can't use voice commands. [/INST] [{'Voice commands not working': ['Use voice commands']}] </s>
+<s>[INST] The app doesn't apply my discount code. [/INST] [{'Discount code not applied': ['Apply discount code']}] </s>
+<s>[INST] I get an error when I try to post a comment. [/INST] [{'Error posting comment': ['Post a comment']}] </s>
+<s>[INST] The app doesn't load images. [/INST] [{'Images not loading': ['View images']}] </s>
+<s>[INST] I can't access my saved articles. [/INST] [{'Unable to access saved articles': ['Access saved articles']}] </s>
+<s>[INST] The app crashes when I play games. [/INST] [{'App crashes': ['Play games']}] </s>
+<s>[INST] I can't send friend requests. [/INST] [{'Unable to send friend requests': ['Send friend requests']}] </s>
+<s>[INST] The app doesn't update my profile information. [/INST] [{'Profile information not updated': ['Update profile information']}] </s>
+<s>[INST] I get an error message when I try to log out. [/INST] [{'Error logging out': ['Log out']}] </s>
+<s>[INST] The app doesn't recognize my voice. [/INST] [{'Voice recognition not working': ['Use voice commands']}] </s>
+<s>[INST] I can't add tags to my posts. [/INST] [{'Unable to add tags': ['Add tags to posts']}] </s>
+<s>[INST] The app crashes during video playback. [/INST] [{'App crashes': ['Play a video']}] </s>
+<s>[INST] I can't view notifications. [/INST] [{'Unable to view notifications': ['View notifications']}] </s>
+<s>[INST] The app doesn't show my activity log. [/INST] [{'Activity log not showing': ['View activity log']}] </s>
+<s>[INST] I can't mute conversations. [/INST] [{'Unable to mute conversations': ['Mute conversations']}] </s>
+<s>[INST] The app freezes during login. [/INST] [{'App freezes': ['Log in']}] </s>
+<s>[INST] I get an error when I try to change my password. [/INST] [{'Error changing password': ['Change my password']}] </s>
+<s>[INST] The app doesn't sync with my contacts. [/INST] [{'Contacts not syncing': ['Sync with contacts']}] </s>
+<s>[INST] I can't turn off notifications. [/INST] [{'Unable to turn off notifications': ['Turn off notifications']}] </s>
+<s>[INST] The app doesn't show my messages. [/INST] [{'Messages not showing': ['View messages']}] </s>
+<s>[INST] I can't share posts. [/INST] [{'Unable to share posts': ['Share posts']}] </s>
+<s>[INST] The app crashes when I try to upload a file. [/INST] [{'App crashes': ['Upload a file']}] </s>
+<s>[INST] I get logged out when I close the app. [/INST] [{'Logged out when closing the app': ['Close the app']}] </s>
+<s>[INST] The app doesn't apply my theme settings. [/INST] [{'Theme settings not applied': ['Apply theme settings']}] </s>
+<s>[INST] I can't comment on posts. [/INST] [{'Unable to comment on posts': ['Comment on posts']}] </s>
+<s>[INST] The app doesn't show my bookmarks. [/INST] [{'Bookmarks not showing': ['View bookmarks']}] </s>
+<s>[INST] I can't connect my email. [/INST] [{'Unable to connect email': ['Connect email']}] </s>
+<s>[INST] The app crashes when I open the gallery. [/INST] [{'App crashes': ['Open the gallery']}] </s>
+<s>[INST] I can't set reminders. [/INST] [{'Unable to set reminders': ['Set reminders']}] </s>
+<s>[INST] The app doesn't send verification codes. [/INST] [{'Verification codes not sent': ['Request verification code']}] </s>
+"<s>[INST] I can't see who's online. [/INST] [{""Unable to see who's online"": ['Check online status']}] </s>"
+<s>[INST] The app crashes when I try to edit photos. [/INST] [{'App crashes': ['Edit photos']}] </s>
+<s>[INST] I can't delete chat messages. [/INST] [{'Unable to delete chat messages': ['Delete chat messages']}] </s>
+<s>[INST] The app doesn't show my notifications. [/INST] [{'Notifications not showing': ['View notifications']}] </s>
+<s>[INST] I can't view my payment history. [/INST] [{'Unable to view payment history': ['View payment history']}] </s>
+<s>[INST] The app crashes when I try to sync data. [/INST] [{'App crashes': ['Sync data']}] </s>
+<s>[INST] I can't download attachments. [/INST] [{'Unable to download attachments': ['Download attachments']}] </s>
+<s>[INST] The app doesn't update my status. [/INST] [{'Status not updated': ['Update status']}] </s>
+<s>[INST] I can't view my followers. [/INST] [{'Unable to view followers': ['View followers']}] </s>
+<s>[INST] The app crashes when I open the news feed. [/INST] [{'App crashes': ['Open the news feed']}] </s>
+<s>[INST] I can't save my progress in games. [/INST] [{'Unable to save progress': ['Save progress in games']}] </s>
+<s>[INST] The app doesn't apply my privacy settings. [/INST] [{'Privacy settings not applied': ['Apply privacy settings']}] </s>
+<s>[INST] I can't upload videos. [/INST] [{'Unable to upload videos': ['Upload videos']}] </s>
+<s>[INST] The app freezes when I try to call someone. [/INST] [{'App freezes': ['Call someone']}] </s>
+<s>[INST] I can't see my recent activity. [/INST] [{'Unable to see recent activity': ['View recent activity']}] </s>
+<s>[INST] The app doesn't mark my messages as read. [/INST] [{'Messages not marked as read': ['Read messages']}] </s>
+<s>[INST] I can't invite friends to events. [/INST] [{'Unable to invite friends': ['Invite friends to events']}] </s>
+<s>[INST] The app crashes when I open the map. [/INST] [{'App crashes': ['Open the map']}] </s>
+<s>[INST] I can't send feedback. [/INST] [{'Unable to send feedback': ['Send feedback']}] </s>
+<s>[INST] The app doesn't apply my notification settings. [/INST] [{'Notification settings not applied': ['Apply notification settings']}] </s>
+<s>[INST] I can't upload documents. [/INST] [{'Unable to upload documents': ['Upload documents']}] </s>
+<s>[INST] The app crashes when I open the calendar. [/INST] [{'App crashes': ['Open the calendar']}] </s>
+<s>[INST] I can't delete my search history. [/INST] [{'Unable to delete search history': ['Delete search history']}] </s>
+<s>[INST] The app doesn't sync with my email. [/INST] [{'Email not syncing': ['Sync with email']}] </s>
+<s>[INST] I can't change my profile picture. [/INST] [{'Unable to change profile picture': ['Change profile picture']}] </s>
+<s>[INST] The app crashes when I try to send a file. [/INST] [{'App crashes': ['Send a file']}] </s>
+<s>[INST] I can't view my watchlist. [/INST] [{'Unable to view watchlist': ['View watchlist']}] </s>
+<s>[INST] The app doesn't show my notifications on time. [/INST] [{'Notifications not timely': ['Receive notifications']}] </s>
+<s>[INST] I can't access the help section. [/INST] [{'Unable to access help section': ['Access the help section']}] </s>
+<s>[INST] The app crashes when I try to link my bank account. [/INST] [{'App crashes': ['Link my bank account']}] </s>
+<s>[INST] I can't change my email address. [/INST] [{'Unable to change email address': ['Change email address']}] </s>
+<s>[INST] The app doesn't update my activity feed. [/INST] [{'Activity feed not updated': ['View activity feed']}] </s>
+<s>[INST] I can't connect to Bluetooth devices. [/INST] [{'Unable to connect to Bluetooth devices': ['Connect to Bluetooth devices']}] </s>
+<s>[INST] The app crashes when I receive notifications. [/INST] [{'App crashes': ['Receive notifications']}] </s>
+"<s>[INST] When I try to log in, it says my password is incorrect after I reset it. [/INST] [{'Incorrect password error': ['Reset password', 'Try to log in']}] </s>"
+"<s>[INST] The app crashes every time I open the settings after I update it. [/INST] [{'App crashes': ['Update the app', 'Open the settings']}] </s>"
+"<s>[INST] I can't upload my profile picture; it always fails after selecting a photo. [/INST] [{'Profile picture upload fails': ['Select a photo', 'Upload my profile picture']}] </s>"
+"<s>[INST] The app freezes when I try to send a message after attaching an image. [/INST] [{'App freezes': ['Attach an image', 'Send a message']}] </s>"
+"<s>[INST] I get an error when I attempt to update my account details after entering my new email. [/INST] [{'Error updating account details': ['Enter new email', 'Update my account details']}] </s>"
+"<s>[INST] The payment fails whenever I try to purchase a subscription after entering my card details. [/INST] [{'Payment fails': ['Enter card details', 'Purchase a subscription']}] </s>"
+"<s>[INST] The search function doesn't return any results after I type in a keyword. [/INST] [{'No search results': ['Type in a keyword', 'Use the search function']}] </s>"
+"<s>[INST] I can't add items to my cart after I select a product. [/INST] [{'Unable to add items to cart': ['Select a product', 'Add items to cart']}] </s>"
+"<s>[INST] The app doesn't load past the splash screen after the latest update. [/INST] [{""App doesn't load"": ['Install latest update', 'Open the app']}] </s>"
+"<s>[INST] I get logged out automatically after a few minutes of inactivity. [/INST] [{'Automatic logout': ['Be inactive for a few minutes', 'Use the app']}] </s>"
+"<s>[INST] My location is not detected when I try to share it after enabling GPS. [/INST] [{'Location not detected': ['Enable GPS', 'Share my location']}] </s>"
+"<s>[INST] Notifications are not showing up for new messages after I enable them. [/INST] [{'Notifications not showing': ['Enable notifications', 'Receive new messages']}] </s>"
+"<s>[INST] The app shows a blank screen when I try to open my messages after clicking the icon. [/INST] [{'Blank screen on messages': ['Click the messages icon', 'Open my messages']}] </s>"
+"<s>[INST] I can't connect my social media accounts after I enter my credentials. [/INST] [{'Unable to connect social media accounts': ['Enter social media credentials', 'Connect social media accounts']}] </s>"
+"<s>[INST] The video player doesn't start after I press play. [/INST] [{""Video player doesn't start"": ['Press play', 'Play a video']}] </s>"
+"<s>[INST] The app doesn't save my preferences after I select them. [/INST] [{'Preferences not saved': ['Select preferences', 'Save my preferences']}] </s>"
+"<s>[INST] I can't reset my password after I receive the reset link. [/INST] [{'Unable to reset password': ['Receive reset link', 'Reset my password']}] </s>"
+"<s>[INST] The app crashes when I receive a call after using it for a while. [/INST] [{'App crashes': ['Use the app for a while', 'Receive a call']}] </s>"
+"<s>[INST] The chat history is not loading after I restart the app. [/INST] [{'Chat history not loading': ['Restart the app', 'View chat history']}] </s>"
+"<s>[INST] I can't change my profile name after entering a new name. [/INST] [{'Unable to change profile name': ['Enter new name', 'Change my profile name']}] </s>"
+"<s>[INST] The app freezes on the loading screen after I reopen it. [/INST] [{'App freezes': ['Reopen the app', 'Open the app']}] </s>"
+"<s>[INST] I get an error message when I try to download files after selecting them. [/INST] [{'Error downloading files': ['Select files', 'Download files']}] </s>"
+"<s>[INST] The app doesn't sync my calendar after I link my account. [/INST] [{'Calendar not syncing': ['Link my account', 'Sync my calendar']}] </s>"
+"<s>[INST] I can't join any groups after I send a request. [/INST] [{'Unable to join groups': ['Send join request', 'Join groups']}] </s>"
+"<s>[INST] The app won't let me delete my account after confirming my password. [/INST] [{'Unable to delete account': ['Confirm password', 'Delete my account']}] </s>"
+"<s>[INST] The screen goes black during video calls after I enable the camera. [/INST] [{'Black screen during video calls': ['Enable camera', 'Make a video call']}] </s>"
+"<s>[INST] I can't send photos in the chat after I select them. [/INST] [{'Unable to send photos': ['Select photos', 'Send photos in the chat']}] </s>"
+"<s>[INST] The app doesn't remember my login details after I save them. [/INST] [{'Login details not remembered': ['Save login details', 'Log in']}] </s>"
+"<s>[INST] The notifications are delayed after I turn them on. [/INST] [{'Notifications delayed': ['Turn on notifications', 'Receive notifications']}] </s>"
+"<s>[INST] The app crashes when I try to open notifications after receiving them. [/INST] [{'App crashes': ['Receive notifications', 'Open notifications']}] </s>"
+"<s>[INST] The app logs me out when I change settings after saving them. [/INST] [{'App logs out': ['Save settings', 'Change settings']}] </s>"
+"<s>[INST] I can't link my payment method after I enter my bank details. [/INST] [{'Unable to link payment method': ['Enter bank details', 'Link payment method']}] </s>"
+"<s>[INST] The app doesn't show my friends list after I refresh it. [/INST] [{'Friends list not showing': ['Refresh friends list', 'View friends list']}] </s>"
+"<s>[INST] The music player stops randomly after I switch apps. [/INST] [{'Music player stops randomly': ['Switch apps', 'Play music']}] </s>"
+"<s>[INST] I can't block users after I select them. [/INST] [{'Unable to block users': ['Select users', 'Block users']}] </s>"
+"<s>[INST] The app freezes when I receive a message after opening the chat. [/INST] [{'App freezes': ['Open the chat', 'Receive a message']}] </s>"
+"<s>[INST] I can't use voice commands after I enable the microphone. [/INST] [{'Voice commands not working': ['Enable microphone', 'Use voice commands']}] </s>"
+"<s>[INST] The app doesn't apply my discount code after I enter it. [/INST] [{'Discount code not applied': ['Enter discount code', 'Apply discount code']}] </s>"
+"<s>[INST] I get an error when I try to post a comment after writing it. [/INST] [{'Error posting comment': ['Write a comment', 'Post a comment']}] </s>"
+"<s>[INST] The app doesn't load images after I click on them. [/INST] [{'Images not loading': ['Click on images', 'View images']}] </s>"
+"<s>[INST] I can't access my saved articles after I save them. [/INST] [{'Unable to access saved articles': ['Save articles', 'Access saved articles']}] </s>"
+"<s>[INST] The app crashes when I play games after a while. [/INST] [{'App crashes': ['Play games for a while', 'Play games']}] </s>"
+"<s>[INST] I can't send friend requests after I find a friend. [/INST] [{'Unable to send friend requests': ['Find a friend', 'Send friend requests']}] </s>"
+"<s>[INST] The app doesn't update my profile information after I edit it. [/INST] [{'Profile information not updated': ['Edit profile information', 'Update profile information']}] </s>"
+"<s>[INST] I get an error message when I try to log out after I close a chat. [/INST] [{'Error logging out': ['Close a chat', 'Log out']}] </s>"
+"<s>[INST] The app doesn't recognize my voice after I speak. [/INST] [{'Voice recognition not working': ['Speak', 'Use voice commands']}] </s>"
+"<s>[INST] I can't add tags to my posts after I write them. [/INST] [{'Unable to add tags': ['Write posts', 'Add tags to posts']}] </s>"
+"<s>[INST] The app crashes during video playback after I forward the video. [/INST] [{'App crashes': ['Forward video', 'Play a video']}] </s>"
+"<s>[INST] I can't view notifications after I turn them on. [/INST] [{'Unable to view notifications': ['Turn on notifications', 'View notifications']}] </s>"
+"<s>[INST] The app doesn't show my activity log after I perform an action. [/INST] [{'Activity log not showing': ['Perform an action', 'View activity log']}] </s>"
+"<s>[INST] I can't mute conversations after I select them. [/INST] [{'Unable to mute conversations': ['Select conversations', 'Mute conversations']}] </s>"
+"<s>[INST] The app freezes during login after I enter my credentials. [/INST] [{'App freezes': ['Enter credentials', 'Log in']}] </s>"
+"<s>[INST] I get an error when I try to change my password after entering the current one. [/INST] [{'Error changing password': ['Enter current password', 'Change my password']}] </s>"
+"<s>[INST] The app doesn't show my liked posts after I refresh the feed. [/INST] [{'Liked posts not showing': ['Refresh the feed', 'View liked posts']}] </s>"
+"<s>[INST] I can't connect to Wi-Fi after I turn it on. [/INST] [{'Unable to connect to Wi-Fi': ['Turn on Wi-Fi', 'Connect to Wi-Fi']}] </s>"
+"<s>[INST] The app crashes when I try to open the menu after clicking the button. [/INST] [{'App crashes': ['Click the menu button', 'Open the menu']}] </s>"
+"<s>[INST] I can't change my payment method after entering new details. [/INST] [{'Unable to change payment method': ['Enter new details', 'Change payment method']}] </s>"
+"<s>[INST] The app doesn't update my reading list after I add a book. [/INST] [{'Reading list not updated': ['Add a book', 'Update reading list']}] </s>"
+"<s>[INST] I can't send invitations to events after creating them. [/INST] [{'Unable to send invitations': ['Create events', 'Send invitations']}] </s>"
+"<s>[INST] The app doesn't save my changes after I modify my preferences. [/INST] [{'Changes not saved': ['Modify preferences', 'Save changes']}] </s>"
+"<s>[INST] I can't delete messages after I select them. [/INST] [{'Unable to delete messages': ['Select messages', 'Delete messages']}] </s>"
+"<s>[INST] The app crashes when I try to upload photos after selecting them. [/INST] [{'App crashes': ['Select photos', 'Upload photos']}] </s>"
+"<s>[INST] I can't view my followers after I follow someone. [/INST] [{'Unable to view followers': ['Follow someone', 'View followers']}] </s>"
+"<s>[INST] The app doesn't show my posts after I refresh my profile. [/INST] [{'Posts not showing': ['Refresh profile', 'View posts']}] </s>"
+"<s>[INST] I get an error when I try to unsubscribe from emails after opening the settings. [/INST] [{'Error unsubscribing from emails': ['Open settings', 'Unsubscribe from emails']}] </s>"
+"<s>[INST] The app doesn't show my saved locations after I add them. [/INST] [{'Saved locations not showing': ['Add locations', 'View saved locations']}] </s>"
+"<s>[INST] I can't send attachments in emails after I upload them. [/INST] [{'Unable to send attachments': ['Upload attachments', 'Send attachments in emails']}] </s>"
+"<s>[INST] The app crashes when I watch live streams after a while. [/INST] [{'App crashes': ['Watch live streams for a while', 'Watch live streams']}] </s>"
+"<s>[INST] I can't edit my comments after I post them. [/INST] [{'Unable to edit comments': ['Post comments', 'Edit comments']}] </s>"
+"<s>[INST] The app doesn't show my favorites after I add items. [/INST] [{'Favorites not showing': ['Add items', 'View favorites']}] </s>"
+"<s>[INST] I get logged out when I switch accounts after adding a new one. [/INST] [{'Logged out': ['Add new account', 'Switch accounts']}] </s>"
+"<s>[INST] The app doesn't sync my contacts after I import them. [/INST] [{'Contacts not syncing': ['Import contacts', 'Sync contacts']}] </s>"
+"<s>[INST] I can't redeem my points after I enter the code. [/INST] [{'Unable to redeem points': ['Enter code', 'Redeem points']}] </s>"
+"<s>[INST] The app crashes when I view photos after uploading them. [/INST] [{'App crashes': ['Upload photos', 'View photos']}] </s>"
+"<s>[INST] I can't change my location settings after I access them. [/INST] [{'Unable to change location settings': ['Access location settings', 'Change location settings']}] </s>"
+"<s>[INST] The app doesn't recognize my fingerprint after I enable it. [/INST] [{'Fingerprint not recognized': ['Enable fingerprint', 'Use fingerprint']}] </s>"
+"<s>[INST] I can't add new devices after I scan for them. [/INST] [{'Unable to add new devices': ['Scan for devices', 'Add new devices']}] </s>"
+"<s>[INST] The app crashes when I scroll through my feed after a while. [/INST] [{'App crashes': ['Scroll through feed for a while', 'Scroll through feed']}] </s>"
+"<s>[INST] I can't view my download history after I download files. [/INST] [{'Unable to view download history': ['Download files', 'View download history']}] </s>"
+"<s>[INST] The app doesn't refresh my feed after I pull down to refresh. [/INST] [{'Feed not refreshed': ['Pull down to refresh', 'Refresh feed']}] </s>"
+"<s>[INST] I can't share my profile after I copy the link. [/INST] [{'Unable to share profile': ['Copy link', 'Share profile']}] </s>"
+"<s>[INST] The app doesn't save my bookmarks after I mark them. [/INST] [{'Bookmarks not saved': ['Mark bookmarks', 'Save bookmarks']}] </s>"
+"<s>[INST] I get an error message when I try to resend a verification email after requesting it. [/INST] [{'Error resending verification email': ['Request verification email', 'Resend verification email']}] </s>"
+"<s>[INST] The app doesn't load my conversations after I log in. [/INST] [{'Conversations not loading': ['Log in', 'View conversations']}] </s>"
+"<s>[INST] I can't change my password after I forget it and request a reset link. [/INST] [{'Unable to change password': ['Request reset link', 'Change password']}] </s>"
+"<s>[INST] The app crashes when I update my profile picture after taking a photo. [/INST] [{'App crashes': ['Take a photo', 'Update profile picture']}] </s>"
+"<s>[INST] I can't join meetings after I receive the invitation link. [/INST] [{'Unable to join meetings': ['Receive invitation link', 'Join meetings']}] </s>"
+"<s>[INST] The app doesn't send verification codes after I request them. [/INST] [{'Verification codes not sent': ['Request verification codes', 'Receive verification codes']}] </s>"
+"<s>[INST] I can't delete my browsing history after I clear it. [/INST] [{'Unable to delete browsing history': ['Clear browsing history', 'Delete browsing history']}] </s>"
+"<s>[INST] The app crashes when I download updates after they are available. [/INST] [{'App crashes': ['Download updates', 'Install updates']}] </s>"
+"<s>[INST] I can't edit my posts after I publish them. [/INST] [{'Unable to edit posts': ['Publish posts', 'Edit posts']}] </s>"
+"<s>[INST] When I open the app, it crashes and also logs me out. [/INST] [{'App crashes': ['Open the app']}, {'Logs out': ['Open the app']}] </s>"
+"<s>[INST] I get an error message and can't submit the form when I try to save changes. [/INST] [{'Error message appears': ['Save changes']}, {""Can't submit the form"": ['Save changes']}] </s>"
+"<s>[INST] The app freezes and stops responding when I try to update my profile picture. [/INST] [{'App freezes': ['Update my profile picture']}, {'Stops responding': ['Update my profile picture']}] </s>"
+"<s>[INST] When I receive a call, the app crashes and the call doesn't go through. [/INST] [{'App crashes': ['Receive a call']}, {""Call doesn't go through"": ['Receive a call']}] </s>"
+"<s>[INST] The payment page doesn't load and I get an error when I try to make a payment. [/INST] [{""Payment page doesn't load"": ['Make a payment']}, {'Error appears': ['Make a payment']}] </s>"
+"<s>[INST] When I upload a file, it fails and the app crashes. [/INST] [{'Upload fails': ['Upload a file']}, {'App crashes': ['Upload a file']}] </s>"
+"<s>[INST] The app doesn't refresh and the feed remains outdated when I pull to refresh. [/INST] [{""App doesn't refresh"": ['Pull to refresh']}, {'Feed remains outdated': ['Pull to refresh']}] </s>"
+"<s>[INST] When I search for a friend, no results are found and I get an error. [/INST] [{'No search results found': ['Search for a friend']}, {'Error appears': ['Search for a friend']}] </s>"
+"<s>[INST] I can't connect to Bluetooth and the app crashes when I try to pair a device. [/INST] [{""Can't connect to Bluetooth"": ['Pair a device']}, {'App crashes': ['Pair a device']}] </s>"
+"<s>[INST] When I add items to the cart, they disappear and the app freezes. [/INST] [{'Items disappear from cart': ['Add items to the cart']}, {'App freezes': ['Add items to the cart']}] </s>"
+"<s>[INST] The app crashes and I get logged out when I change my password. [/INST] [{'App crashes': ['Change my password']}, {'Logged out': ['Change my password']}] </s>"
+"<s>[INST] When I try to send a message, it fails and the app becomes unresponsive. [/INST] [{'Message sending fails': ['Send a message']}, {'App becomes unresponsive': ['Send a message']}] </s>"
+"<s>[INST] I can't view my profile and the app crashes when I try to open it. [/INST] [{""Can't view profile"": ['Open profile']}, {'App crashes': ['Open profile']}] </s>"
+"<s>[INST] The app doesn't load new notifications and I get an error when I refresh. [/INST] [{'New notifications not loading': ['Refresh']}, {'Error appears': ['Refresh']}] </s>"
+"<s>[INST] When I join a meeting, the audio doesn't work and the app crashes. [/INST] [{""Audio doesn't work"": ['Join a meeting']}, {'App crashes': ['Join a meeting']}] </s>"
+"<s>[INST] I can't post comments and the app crashes when I submit them. [/INST] [{""Can't post comments"": ['Submit comments']}, {'App crashes': ['Submit comments']}] </s>"
+"<s>[INST] The app freezes and my location isn't detected when I share my location. [/INST] [{'App freezes': ['Share my location']}, {'Location not detected': ['Share my location']}] </s>"
+"<s>[INST] When I check my balance, it shows an error and the app crashes. [/INST] [{'Error shows': ['Check my balance']}, {'App crashes': ['Check my balance']}] </s>"
+"<s>[INST] I can't play videos and the app crashes when I open a video. [/INST] [{""Can't play videos"": ['Open a video']}, {'App crashes': ['Open a video']}] </s>"
+"<s>[INST] The app doesn't load my messages and I get an error when I open the chat. [/INST] [{'Messages not loading': ['Open the chat']}, {'Error appears': ['Open the chat']}] </s>"
+"<s>[INST] When I save my preferences, the app crashes and my settings don't update. [/INST] [{'App crashes': ['Save my preferences']}, {""Settings don't update"": ['Save my preferences']}] </s>"
+"<s>[INST] I get an error and can't connect to the server when I log in. [/INST] [{'Error appears': ['Log in']}, {""Can't connect to the server"": ['Log in']}] </s>"
+"<s>[INST] When I try to load images, the app crashes and they don't display. [/INST] [{'App crashes': ['Load images']}, {""Images don't display"": ['Load images']}] </s>"
+"<s>[INST] I can't receive notifications and the app crashes when they are enabled. [/INST] [{""Can't receive notifications"": ['Enable notifications']}, {'App crashes': ['Enable notifications']}] </s>"
+"<s>[INST] When I create an event, it doesn't save and the app crashes. [/INST] [{""Event doesn't save"": ['Create an event']}, {'App crashes': ['Create an event']}] </s>"
+"<s>[INST] I get logged out and the app crashes when I update my profile. [/INST] [{'Logged out': ['Update my profile']}, {'App crashes': ['Update my profile']}] </s>"
+"<s>[INST] When I check my notifications, they don't load and the app freezes. [/INST] [{""Notifications don't load"": ['Check notifications']}, {'App freezes': ['Check notifications']}] </s>"
+"<s>[INST] I can't access settings and the app crashes when I open them. [/INST] [{""Can't access settings"": ['Open settings']}, {'App crashes': ['Open settings']}] </s>"
+"<s>[INST] When I share a post, it doesn't upload and the app crashes. [/INST] [{""Post doesn't upload"": ['Share a post']}, {'App crashes': ['Share a post']}] </s>"
+"<s>[INST] The app doesn't recognize my fingerprint and crashes when I try to use it. [/INST] [{'Fingerprint not recognized': ['Use fingerprint']}, {'App crashes': ['Use fingerprint']}] </s>"
+"<s>[INST] When I edit my profile, it doesn't save and the app crashes. [/INST] [{""Profile doesn't save"": ['Edit profile']}, {'App crashes': ['Edit profile']}] </s>"
+"<s>[INST] I can't send messages and the app crashes when I open the chat. [/INST] [{""Can't send messages"": ['Open the chat']}, {'App crashes': ['Open the chat']}] </s>"
+"<s>[INST] When I upload a video, it doesn't complete and the app crashes. [/INST] [{""Video upload doesn't complete"": ['Upload a video']}, {'App crashes': ['Upload a video']}] </s>"
+"<s>[INST] The app freezes and I can't play music when I select a song. [/INST] [{'App freezes': ['Select a song']}, {""Can't play music"": ['Select a song']}] </s>"
+"<s>[INST] When I connect my account, the app crashes and the connection fails. [/INST] [{'App crashes': ['Connect my account']}, {'Connection fails': ['Connect my account']}] </s>"
+"<s>[INST] I get an error and the app crashes when I view my timeline. [/INST] [{'Error appears': ['View my timeline']}, {'App crashes': ['View my timeline']}] </s>"
+"<s>[INST] When I receive a notification, the app doesn't update and crashes. [/INST] [{""App doesn't update"": ['Receive a notification']}, {'App crashes': ['Receive a notification']}] </s>"
+"<s>[INST] I can't access my documents and the app crashes when I open them. [/INST] [{""Can't access documents"": ['Open documents']}, {'App crashes': ['Open documents']}] </s>"
+"<s>[INST] When I change my email, the app doesn't save and crashes. [/INST] [{""Email doesn't save"": ['Change my email']}, {'App crashes': ['Change my email']}] </s>"
+"<s>[INST] The app doesn't sync my contacts and crashes when I try to sync. [/INST] [{'Contacts not syncing': ['Sync contacts']}, {'App crashes': ['Sync contacts']}] </s>"
+"<s>[INST] When I update the app, it crashes and doesn't complete the update. [/INST] [{'App crashes': ['Update the app']}, {""Update doesn't complete"": ['Update the app']}] </s>"
+"<s>[INST] I can't follow users and the app crashes when I click follow. [/INST] [{""Can't follow users"": ['Click follow']}, {'App crashes': ['Click follow']}] </s>"
+"<s>[INST] When I create a group, the app crashes and it doesn't save. [/INST] [{'App crashes': ['Create a group']}, {""Group doesn't save"": ['Create a group']}] </s>"
+"<s>[INST] I get an error and the app crashes when I view my activity. [/INST] [{'Error appears': ['View my activity']}, {'App crashes': ['View my activity']}] </s>"
+"<s>[INST] When I update my status, it doesn't post and the app crashes. [/INST] [{""Status doesn't post"": ['Update my status']}, {'App crashes': ['Update my status']}] </s>"
+"<s>[INST] I can't log in and the app crashes when I enter my credentials. [/INST] [{""Can't log in"": ['Enter credentials']}, {'App crashes': ['Enter credentials']}] </s>"
+"<s>[INST] When I try to connect to Wi-Fi, it fails and the app crashes. [/INST] [{'Wi-Fi connection fails': ['Connect to Wi-Fi']}, {'App crashes': ['Connect to Wi-Fi']}] </s>"
+"<s>[INST] I get an error and the app crashes when I send an email. [/INST] [{'Error appears': ['Send an email']}, {'App crashes': ['Send an email']}] </s>"
+"<s>[INST] When I change my theme, the app doesn't update and crashes. [/INST] [{""Theme doesn't update"": ['Change my theme']}, {'App crashes': ['Change my theme']}] </s>"
+"<s>[INST] I can't delete items and the app crashes when I select them. [/INST] [{""Can't delete items"": ['Select items']}, {'App crashes': ['Select items']}] </s>"
+"<s>[INST] When I reset my password, I get an error and the app crashes. [/INST] [{'Error appears': ['Reset my password']}, {'App crashes': ['Reset my password']}] </s>"
+"<s>[INST] I can't download files and the app crashes when I start the download. [/INST] [{""Can't download files"": ['Start download']}, {'App crashes': ['Start download']}] </s>"
+"<s>[INST] When I switch to dark mode, the app crashes and doesn't change. [/INST] [{'App crashes': ['Switch to dark mode']}, {""Mode doesn't change"": ['Switch to dark mode']}] </s>"
+"<s>[INST] I get an error and the app crashes when I verify my account. [/INST] [{'Error appears': ['Verify my account']}, {'App crashes': ['Verify my account']}] </s>"
+"<s>[INST] When I clear the cache, the app crashes and doesn't clear it. [/INST] [{'App crashes': ['Clear the cache']}, {""Cache doesn't clear"": ['Clear the cache']}] </s>"
+"<s>[INST] I can't view my reminders and the app crashes when I open them. [/INST] [{""Can't view reminders"": ['Open reminders']}, {'App crashes': ['Open reminders']}] </s>"
+"<s>[INST] When I sign up, I get an error and the app crashes. [/INST] [{'Error appears': ['Sign up']}, {'App crashes': ['Sign up']}] </s>"
+"<s>[INST] I can't reply to messages and the app crashes when I try to reply. [/INST] [{""Can't reply to messages"": ['Reply to messages']}, {'App crashes': ['Reply to messages']}] </s>"
+"<s>[INST] When I try to schedule a post, the app crashes and it doesn't save. [/INST] [{'App crashes': ['Schedule a post']}, {""Post doesn't save"": ['Schedule a post']}] </s>"
+"<s>[INST] I get an error and the app crashes when I access the camera. [/INST] [{'Error appears': ['Access the camera']}, {'App crashes': ['Access the camera']}] </s>"
+"<s>[INST] When I open notifications, they don't load and the app crashes. [/INST] [{""Notifications don't load"": ['Open notifications']}, {'App crashes': ['Open notifications']}] </s>"
+"<s>[INST] I can't delete my account and the app crashes when I try to delete it. [/INST] [{""Can't delete account"": ['Delete account']}, {'App crashes': ['Delete account']}] </s>"
+"<s>[INST] When I check my orders, they don't load and the app crashes. [/INST] [{""Orders don't load"": ['Check orders']}, {'App crashes': ['Check orders']}] </s>"
+"<s>[INST] I get an error and the app crashes when I change my phone number. [/INST] [{'Error appears': ['Change my phone number']}, {'App crashes': ['Change my phone number']}] </s>"
+"<s>[INST] When I search for items, nothing appears and the app crashes. [/INST] [{'Nothing appears in search': ['Search for items']}, {'App crashes': ['Search for items']}] </s>"
+"<s>[INST] I can't update my bio and the app crashes when I try to update it. [/INST] [{""Can't update bio"": ['Update bio']}, {'App crashes': ['Update bio']}] </s>"
+"<s>[INST] When I open messages, they don't load and the app crashes. [/INST] [{""Messages don't load"": ['Open messages']}, {'App crashes': ['Open messages']}] </s>"
+"<s>[INST] I get an error and the app crashes when I remove items from the cart. [/INST] [{'Error appears': ['Remove items from the cart']}, {'App crashes': ['Remove items from the cart']}] </s>"
+"<s>[INST] When I download the update, it doesn't install and the app crashes. [/INST] [{""Update doesn't install"": ['Download the update']}, {'App crashes': ['Download the update']}] </s>"
+"<s>[INST] I can't add friends and the app crashes when I send requests. [/INST] [{""Can't add friends"": ['Send requests']}, {'App crashes': ['Send requests']}] </s>"
+"<s>[INST] When I change the language, the app crashes and the language doesn't update. [/INST] [{'App crashes': ['Change the language']}, {""Language doesn't update"": ['Change the language']}] </s>"
+"<s>[INST] I get an error and the app crashes when I link my social accounts. [/INST] [{'Error appears': ['Link my social accounts']}, {'App crashes': ['Link my social accounts']}] </s>"
+"<s>[INST] When I try to print, it doesn't work and the app crashes. [/INST] [{""Printing doesn't work"": ['Print']}, {'App crashes': ['Print']}] </s>"
+"<s>[INST] I can't create new tasks and the app crashes when I add them. [/INST] [{""Can't create new tasks"": ['Add tasks']}, {'App crashes': ['Add tasks']}] </s>"
+"<s>[INST] When I change my profile photo, it doesn't update and the app crashes. [/INST] [{""Profile photo doesn't update"": ['Change my profile photo']}, {'App crashes': ['Change my profile photo']}] </s>"
+"<s>[INST] I get an error and the app crashes when I check for updates. [/INST] [{'Error appears': ['Check for updates']}, {'App crashes': ['Check for updates']}] </s>"
+"<s>[INST] When I access the help section, it doesn't load and the app crashes. [/INST] [{""Help section doesn't load"": ['Access the help section']}, {'App crashes': ['Access the help section']}] </s>"
+"<s>[INST] I can't view my albums and the app crashes when I open them. [/INST] [{""Can't view albums"": ['Open albums']}, {'App crashes': ['Open albums']}] </s>"
+"<s>[INST] When I turn on notifications, they don't work and the app crashes. [/INST] [{""Notifications don't work"": ['Turn on notifications']}, {'App crashes': ['Turn on notifications']}] </s>"
+"<s>[INST] I get an error and the app crashes when I import my contacts. [/INST] [{'Error appears': ['Import contacts']}, {'App crashes': ['Import contacts']}] </s>"
+"<s>[INST] When I refresh the feed, it doesn't update and the app crashes. [/INST] [{""Feed doesn't update"": ['Refresh the feed']}, {'App crashes': ['Refresh the feed']}] </s>"
+<s>[INST] The app interface is not user-friendly. [/INST] [] </s>
+<s>[INST] I don't like the color scheme of the app. [/INST] [] </s>
+<s>[INST] The font size is too small and difficult to read. [/INST] [] </s>
+<s>[INST] The app is very slow to load. [/INST] [] </s>
+<s>[INST] There are too many ads in the app. [/INST] [] </s>
+<s>[INST] The notifications are too frequent and annoying. [/INST] [] </s>
+<s>[INST] The app takes up too much storage space. [/INST] [] </s>
+<s>[INST] There are too many bugs in the app. [/INST] [] </s>
+<s>[INST] The app drains my battery quickly. [/INST] [] </s>
+<s>[INST] The app requires too many permissions. [/INST] [] </s>
+<s>[INST] The app crashes sometimes. [/INST] [] </s>
+<s>[INST] The app logs me out randomly. [/INST] [] </s>
+<s>[INST] The app doesn't sync with my other devices. [/INST] [] </s>
+<s>[INST] The app's customer support is not helpful. [/INST] [] </s>
+<s>[INST] The app's privacy policy is unclear. [/INST] [] </s>
+<s>[INST] The app doesn't offer enough features. [/INST] [] </s>
+<s>[INST] The app's premium version is too expensive. [/INST] [] </s>
+<s>[INST] The app's search function is not accurate. [/INST] [] </s>
+<s>[INST] The app takes a long time to update. [/INST] [] </s>
+<s>[INST] The app doesn't work offline. [/INST] [] </s>
+<s>[INST] The app has a confusing layout. [/INST] [] </s>
+<s>[INST] The app's loading times are inconsistent. [/INST] [] </s>
+<s>[INST] The app's sound effects are annoying. [/INST] [] </s>
+<s>[INST] The app has too many pop-ups. [/INST] [] </s>
+<s>[INST] The app's icon is unattractive. [/INST] [] </s>
+<s>[INST] The app doesn't integrate well with other apps. [/INST] [] </s>
+<s>[INST] The app doesn't support landscape mode. [/INST] [] </s>
+<s>[INST] The app doesn't have dark mode. [/INST] [] </s>
+<s>[INST] The app's widgets are not customizable. [/INST] [] </s>
+<s>[INST] The app doesn't have a tutorial for new users. [/INST] [] </s>
+<s>[INST] The app's translations are inaccurate. [/INST] [] </s>
+<s>[INST] The app's notifications are not customizable. [/INST] [] </s>
+<s>[INST] The app doesn't save my preferences. [/INST] [] </s>
+<s>[INST] The app's animations are too slow. [/INST] [] </s>
+<s>[INST] The app's voice commands are not accurate. [/INST] [] </s>
+<s>[INST] The app's themes are limited. [/INST] [] </s>
+<s>[INST] The app doesn't have a night mode. [/INST] [] </s>
+<s>[INST] The app's social media integration is poor. [/INST] [] </s>
+<s>[INST] The app's live chat feature is unreliable. [/INST] [] </s>
+<s>[INST] The app's settings menu is hard to navigate. [/INST] [] </s>
+<s>[INST] The app's font style is outdated. [/INST] [] </s>
+<s>[INST] The app's filters are not effective. [/INST] [] </s>
+<s>[INST] The app's backup feature is not reliable. [/INST] [] </s>
+<s>[INST] The app's auto-update feature doesn't work. [/INST] [] </s>
+<s>[INST] The app doesn't have a feedback option. [/INST] [] </s>
+<s>[INST] The app's FAQ section is not comprehensive. [/INST] [] </s>
+<s>[INST] The app's user guide is outdated. [/INST] [] </s>
+<s>[INST] The app's community forum is not active. [/INST] [] </s>
+<s>[INST] The app's data usage is too high. [/INST] [] </s>
+<s>[INST] The app's push notifications are delayed. [/INST] [] </s>
+<s>[INST] The app's photo editing tools are limited. [/INST] [] </s>
+<s>[INST] The app's video quality is poor. [/INST] [] </s>
+<s>[INST] The app's text editor is not user-friendly. [/INST] [] </s>
+<s>[INST] The app's calendar sync is unreliable. [/INST] [] </s>
+<s>[INST] The app's download speed is slow. [/INST] [] </s>
+<s>[INST] The app's voice recognition is not accurate. [/INST] [] </s>
+<s>[INST] The app's GPS accuracy is poor. [/INST] [] </s>
+<s>[INST] The app's offline mode is limited. [/INST] [] </s>
+<s>[INST] The app's update notifications are too frequent. [/INST] [] </s>
+<s>[INST] The app's startup time is too long. [/INST] [] </s>
+<s>[INST] The app's support for older devices is poor. [/INST] [] </s>
+<s>[INST] The app's search bar is hard to find. [/INST] [] </s>
+<s>[INST] The app's password reset process is complicated. [/INST] [] </s>
+<s>[INST] The app's file management is confusing. [/INST] [] </s>
+<s>[INST] The app's notification sound is annoying. [/INST] [] </s>
+<s>[INST] The app's file transfer speed is slow. [/INST] [] </s>
+<s>[INST] The app's screen rotation is not smooth. [/INST] [] </s>
+<s>[INST] The app's logout process is cumbersome. [/INST] [] </s>
+<s>[INST] The app's profile customization is limited. [/INST] [] </s>
+<s>[INST] The app's map feature is not accurate. [/INST] [] </s>
+<s>[INST] The app's screen timeout is too short. [/INST] [] </s>
+<s>[INST] The app's payment process is slow. [/INST] [] </s>
+<s>[INST] The app's customer support response is slow. [/INST] [] </s>
+<s>[INST] The app's file compression is not effective. [/INST] [] </s>
+<s>[INST] The app's scanning feature is slow. [/INST] [] </s>
+<s>[INST] The app's voice notes are not clear. [/INST] [] </s>
+<s>[INST] The app's login process is slow. [/INST] [] </s>
+<s>[INST] The app's font color is hard to read. [/INST] [] </s>
+<s>[INST] The app's screen resolution is poor. [/INST] [] </s>
+<s>[INST] The app's language options are limited. [/INST] [] </s>
+<s>[INST] The app's motion sensors are not accurate. [/INST] [] </s>
+<s>[INST] The app's auto-correct is not accurate. [/INST] [] </s>
+<s>[INST] The app's toolbar is not customizable. [/INST] [] </s>
+<s>[INST] The app's search history is not saved. [/INST] [] </s>
+<s>[INST] The app's spam detection is not effective. [/INST] [] </s>
+<s>[INST] The app's voice assistant is not helpful. [/INST] [] </s>
+<s>[INST] The app's split screen feature doesn't work. [/INST] [] </s>
+<s>[INST] The app's task manager is not efficient. [/INST] [] </s>
+<s>[INST] The app's privacy settings are hard to find. [/INST] [] </s>
+<s>[INST] The app's night light feature is too bright. [/INST] [] </s>
+<s>[INST] The app's update logs are not detailed. [/INST] [] </s>
+<s>[INST] The app's download manager is not user-friendly. [/INST] [] </s>
+<s>[INST] The app's auto-fill feature doesn't work. [/INST] [] </s>
+<s>[INST] The app's spell check is not accurate. [/INST] [] </s>
+<s>[INST] The app's storage management is not effective. [/INST] [] </s>
+<s>[INST] The app's battery saver mode doesn't work. [/INST] [] </s>
+<s>[INST] The app's notification badges are not visible. [/INST] [] </s>
