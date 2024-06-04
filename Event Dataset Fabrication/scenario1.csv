@@ -2,16 +2,16 @@ Reviews,Outputs
 I try to upload a photo befre the app crashes.,{'the app crashes': ['try to upload a photo']}
 I log in untl the app freezes.,{'the app freezes': ['log in']}
 I open the settings menu thn the app stops responding.,{'the app stops responding': ['open the settings menu']}
-I click on a notification bfre the app shuts down.,{'the app shuts down': ['click on a notification']}
-I start a video call ten the app lags.,{'the app lags': ['start a video call']}
-I send a message bfr the app crashes.,{'the app crashes': ['send a message']}
-I switch to another tab untl the app becomes unresponsive.,{'the app becomes unresponsive': ['switch to another tab']}
-I attempt to open a file befor the app crashes.,{'the app crashes': ['attempt to open a file']}
+I click on a notification bfoer the app shuts down.,{'the app shuts down': ['click on a notification']}
+I start a video call tehn the app lags.,{'the app lags': ['start a video call']}
+I send a message bfore the app crashes.,{'the app crashes': ['send a message']}
+I switch to another tab utnil the app becomes unresponsive.,{'the app becomes unresponsive': ['switch to another tab']}
+I attempt to open a file befoer the app crashes.,{'the app crashes': ['attempt to open a file']}
 I try to access my profile util the app freezes.,{'the app freezes': ['try to access my profile']}
-I navigate to the chat section thn the app stops responding.,{'the app stops responding': ['navigate to the chat section']}
-I tap on a notification bfre the app shuts down.,{'the app shuts down': ['tap on a notification']}
-I start a call thn the app lags.,{'the app lags': ['start a call']}
-I write a comment bfore the app crashes.,{'the app crashes': ['write a comment']}
+I navigate to the chat section tehn the app stops responding.,{'the app stops responding': ['navigate to the chat section']}
+I tap on a notification bEfroe the app shuts down.,{'the app shuts down': ['tap on a notification']}
+I start a call than the app lags.,{'the app lags': ['start a call']}
+I write a comment befoR the app crashes.,{'the app crashes': ['write a comment']}
 I switch to a different view util the app becomes unresponsive.,{'the app becomes unresponsive': ['switch to a different view']}
 I try to upload a document befre the app crashes.,{'the app crashes': ['try to upload a document']}
 I login util the app freezes.,{'the app freezes': ['login']}
@@ -20,7 +20,7 @@ I login util the app freezes.,{'the app freezes': ['login']}
 I can't log into my Facebook account no matter how many times I try.,"[{""can't recover account"": ['try to recover account']}]"
 "Facebook's algorithm buries everything evry
 tme I try to share on my wall, making it impossible for anyone to see.",[{'algorithm buries posts': ['try to share on wall']}]
-The app logs me out randomly and makes me go through two-factor authentication evrtim I try to log back in.,[{'random logouts': ['try to log back in']}]
+The app logs me out randomly and makes me go through two-factor authentication evrtiem I try to log back in.,[{'random logouts': ['try to log back in']}]
 "Suddenly, the app won't show anything on my page aftr I log in .","[{""app won't show anything"": ['try to log in']}]"
 "My Facebook completely crashed, and now I can't log in at all.",[{'complete crash': ['try to log in']}]
 "After the latest update, the app won't let me log in or create a new account.","[{""can't create new account"": ['try to log in']}]"
